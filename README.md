@@ -1,7 +1,4 @@
-# chet
-
-
-PS D:\Haven1\dev-onboarding-template> slither .
+slither .
 'npx hardhat clean' running (wd: D:\Haven1\dev-onboarding-template)
 'npx hardhat clean --global' running (wd: D:\Haven1\dev-onboarding-template)
 'npx hardhat compile --force' running (wd: D:\Haven1\dev-onboarding-template)
@@ -671,4 +668,5 @@ MockNFT._maxSupply (contracts/vendor/mocks/MockNFT.sol#14) should be immutable
 MockPermissionsInterface._accountManager (contracts/vendor/mocks/MockPermissionsInterface.sol#8) should be immutable
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#state-variables-that-could-be-declared-immutable
 INFO:Slither:. analyzed (58 contracts with 100 detectors), 163 result(s) found
-PS D:\Haven1\dev-onboarding-template> AFTER STEP 4
+PS D:\Haven1\dev-onboarding-template> ^C
+PS D:\Haven1\dev-onboarding-template>
