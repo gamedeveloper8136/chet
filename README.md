@@ -1,7 +1,114 @@
-slither .
+> slither ./contracts
+WARNING:Slither:No contract was analyzed
+INFO:Slither:./contracts analyzed (0 contracts with 100 detectors), 0 result(s) found
+PS D:\Haven1\dev-onboarding-template> slither . --filter-paths "node_modules"
 'npx hardhat clean' running (wd: D:\Haven1\dev-onboarding-template)
+'npx' returned non-zero exit code 1
+An unexpected error occurred:
+stderr: Error: Cannot find module 'solidity-docgen'
+stderr: Require stack:
+stderr: - D:\Haven1\dev-onboarding-template\hardhat.config.ts
+stderr: - D:\Haven1\dev-onboarding-template\node_modules\hardhat\internal\core\config\config-loading.js
+stderr: - D:\Haven1\dev-onboarding-template\node_modules\hardhat\internal\cli\cli.js
+stderr: - D:\Haven1\dev-onboarding-template\node_modules\hardhat\internal\cli\bootstrap.js
+stderr:     at Function.<anonymous> (node:internal/modules/cjs/loader:1401:15)
+stderr:     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\Haven1\dev-onboarding-template\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+stderr:     at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+stderr:     at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+stderr:     at Function._load (node:internal/modules/cjs/loader:1211:37)
+stderr:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+stderr:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+stderr:     at Module.require (node:internal/modules/cjs/loader:1487:12)
+stderr:     at require (node:internal/modules/helpers:135:16)
+stderr:     at Object.<anonymous> (D:\Haven1\dev-onboarding-template\hardhat.config.ts:8:1) {
+stderr:   code: 'MODULE_NOT_FOUND',
+stderr:   requireStack: [
+stderr:     'D:\\Haven1\\dev-onboarding-template\\hardhat.config.ts',
+stderr:     'D:\\Haven1\\dev-onboarding-template\\node_modules\\hardhat\\internal\\core\\config\\config-loading.js',
+stderr:     'D:\\Haven1\\dev-onboarding-template\\node_modules\\hardhat\\internal\\cli\\cli.js',
+stderr:     'D:\\Haven1\\dev-onboarding-template\\node_modules\\hardhat\\internal\\cli\\bootstrap.js'
+stderr:   ]
+stderr: }
 'npx hardhat clean --global' running (wd: D:\Haven1\dev-onboarding-template)
+'npx' returned non-zero exit code 1
+An unexpected error occurred:
+stderr: Error: Cannot find module 'solidity-docgen'
+stderr: Require stack:
+stderr: - D:\Haven1\dev-onboarding-template\hardhat.config.ts
+stderr: - D:\Haven1\dev-onboarding-template\node_modules\hardhat\internal\core\config\config-loading.js
+stderr: - D:\Haven1\dev-onboarding-template\node_modules\hardhat\internal\cli\cli.js
+stderr: - D:\Haven1\dev-onboarding-template\node_modules\hardhat\internal\cli\bootstrap.js
+stderr:     at Function.<anonymous> (node:internal/modules/cjs/loader:1401:15)
+stderr:     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\Haven1\dev-onboarding-template\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+stderr:     at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+stderr:     at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+stderr:     at Function._load (node:internal/modules/cjs/loader:1211:37)
+stderr:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+stderr:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+stderr:     at Module.require (node:internal/modules/cjs/loader:1487:12)
+stderr:     at require (node:internal/modules/helpers:135:16)
+stderr:     at Object.<anonymous> (D:\Haven1\dev-onboarding-template\hardhat.config.ts:8:1) {
+stderr:   code: 'MODULE_NOT_FOUND',
+stderr:   requireStack: [
+stderr:     'D:\\Haven1\\dev-onboarding-template\\hardhat.config.ts',
+stderr:     'D:\\Haven1\\dev-onboarding-template\\node_modules\\hardhat\\internal\\core\\config\\config-loading.js',
+stderr:     'D:\\Haven1\\dev-onboarding-template\\node_modules\\hardhat\\internal\\cli\\cli.js',
+stderr:     'D:\\Haven1\\dev-onboarding-template\\node_modules\\hardhat\\internal\\cli\\bootstrap.js'
+stderr:   ]
+stderr: }
+Problem executing hardhat: An unexpected error occurred:
+Error: Cannot find module 'solidity-docgen'
+Require stack:
+- D:\Haven1\dev-onboarding-template\hardhat.config.ts
+- D:\Haven1\dev-onboarding-template\node_modules\hardhat\internal\core\config\config-loading.js
+- D:\Haven1\dev-onboarding-template\node_modules\hardhat\internal\cli\cli.js
+- D:\Haven1\dev-onboarding-template\node_modules\hardhat\internal\cli\bootstrap.js
+    at Function.<anonymous> (node:internal/modules/cjs/loader:1401:15)
+    at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\Haven1\dev-onboarding-template\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+    at Function._load (node:internal/modules/cjs/loader:1211:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+    at Module.require (node:internal/modules/cjs/loader:1487:12)
+    at require (node:internal/modules/helpers:135:16)
+    at Object.<anonymous> (D:\Haven1\dev-onboarding-template\hardhat.config.ts:8:1) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'D:\\Haven1\\dev-onboarding-template\\hardhat.config.ts',
+    'D:\\Haven1\\dev-onboarding-template\\node_modules\\hardhat\\internal\\core\\config\\config-loading.js',
+    'D:\\Haven1\\dev-onboarding-template\\node_modules\\hardhat\\internal\\cli\\cli.js',
+    'D:\\Haven1\\dev-onboarding-template\\node_modules\\hardhat\\internal\\cli\\bootstrap.js'
+  ]
+}
+
 'npx hardhat compile --force' running (wd: D:\Haven1\dev-onboarding-template)
+'npx' returned non-zero exit code 1
+An unexpected error occurred:
+stderr: Error: Cannot find module 'solidity-docgen'
+stderr: Require stack:
+stderr: - D:\Haven1\dev-onboarding-template\hardhat.config.ts
+stderr: - D:\Haven1\dev-onboarding-template\node_modules\hardhat\internal\core\config\config-loading.js
+stderr: - D:\Haven1\dev-onboarding-template\node_modules\hardhat\internal\cli\cli.js
+stderr: - D:\Haven1\dev-onboarding-template\node_modules\hardhat\internal\cli\bootstrap.js
+stderr:     at Function.<anonymous> (node:internal/modules/cjs/loader:1401:15)
+stderr:     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (D:\Haven1\dev-onboarding-template\node_modules\@cspotcode\source-map-support\source-map-support.js:811:30)
+stderr:     at defaultResolveImpl (node:internal/modules/cjs/loader:1057:19)
+stderr:     at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1062:22)
+stderr:     at Function._load (node:internal/modules/cjs/loader:1211:37)
+stderr:     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+stderr:     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+stderr:     at Module.require (node:internal/modules/cjs/loader:1487:12)
+stderr:     at require (node:internal/modules/helpers:135:16)
+stderr:     at Object.<anonymous> (D:\Haven1\dev-onboarding-template\hardhat.config.ts:8:1) {
+stderr:   code: 'MODULE_NOT_FOUND',
+stderr:   requireStack: [
+stderr:     'D:\\Haven1\\dev-onboarding-template\\hardhat.config.ts',
+stderr:     'D:\\Haven1\\dev-onboarding-template\\node_modules\\hardhat\\internal\\core\\config\\config-loading.js',
+stderr:     'D:\\Haven1\\dev-onboarding-template\\node_modules\\hardhat\\internal\\cli\\cli.js',
+stderr:     'D:\\Haven1\\dev-onboarding-template\\node_modules\\hardhat\\internal\\cli\\bootstrap.js'
+stderr:   ]
+stderr: }
 INFO:Detectors:
 NFTAuction._withdraw(address,uint256) (contracts/examples/nft-auction/NFTAuction.sol#484-487) sends eth to arbitrary user
         Dangerous calls:
@@ -13,12 +120,6 @@ H1DevelopedApplication._safeTransfer(address,uint256) (contracts/vendor/h1-devel
         Dangerous calls:
         - (success,None) = to.call{value: amount}(new bytes(0)) (contracts/vendor/h1-developed-application/H1DevelopedApplication.sol#828)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#functions-that-send-ether-to-arbitrary-destinations
-INFO:Detectors:
-MathUpgradeable.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#55-134) has bitwise-xor operator ^ instead of the exponentiation operator **:
-         - inverse = (3 * denominator) ^ 2 (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#116)
-Math.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts/utils/math/Math.sol#55-134) has bitwise-xor operator ^ instead of the exponentiation operator **:
-         - inverse = (3 * denominator) ^ 2 (node_modules/@openzeppelin/contracts/utils/math/Math.sol#116)
-Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-exponentiation
 INFO:Detectors:
 Reentrancy in NFTAuction.bid() (contracts/examples/nft-auction/NFTAuction.sol#259-294):
         External calls:
@@ -55,56 +156,6 @@ ProofOfIdentity._attributes (contracts/vendor/proof-of-identity/ProofOfIdentity.
         - ProofOfIdentity._setAttr(address,uint256,uint256,bytes) (contracts/vendor/proof-of-identity/ProofOfIdentity.sol#870-881)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#uninitialized-state-variables
 INFO:Detectors:
-MathUpgradeable.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#101)
-        - inverse = (3 * denominator) ^ 2 (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#116)
-MathUpgradeable.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#101)
-        - inverse *= 2 - denominator * inverse (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#120)
-MathUpgradeable.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#101)
-        - inverse *= 2 - denominator * inverse (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#121)
-MathUpgradeable.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#101)
-        - inverse *= 2 - denominator * inverse (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#122)
-MathUpgradeable.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#101)
-        - inverse *= 2 - denominator * inverse (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#123)
-MathUpgradeable.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#101)
-        - inverse *= 2 - denominator * inverse (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#124)
-MathUpgradeable.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#101)
-        - inverse *= 2 - denominator * inverse (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#125)
-MathUpgradeable.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#55-134) performs a multiplication on the result of a division:
-        - prod0 = prod0 / twos (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#104)
-        - result = prod0 * inverse (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#131)
-Math.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts/utils/math/Math.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts/utils/math/Math.sol#101)
-        - inverse = (3 * denominator) ^ 2 (node_modules/@openzeppelin/contracts/utils/math/Math.sol#116)
-Math.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts/utils/math/Math.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts/utils/math/Math.sol#101)
-        - inverse *= 2 - denominator * inverse (node_modules/@openzeppelin/contracts/utils/math/Math.sol#120)
-Math.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts/utils/math/Math.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts/utils/math/Math.sol#101)
-        - inverse *= 2 - denominator * inverse (node_modules/@openzeppelin/contracts/utils/math/Math.sol#121)
-Math.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts/utils/math/Math.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts/utils/math/Math.sol#101)
-        - inverse *= 2 - denominator * inverse (node_modules/@openzeppelin/contracts/utils/math/Math.sol#122)
-Math.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts/utils/math/Math.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts/utils/math/Math.sol#101)
-        - inverse *= 2 - denominator * inverse (node_modules/@openzeppelin/contracts/utils/math/Math.sol#123)
-Math.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts/utils/math/Math.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts/utils/math/Math.sol#101)
-        - inverse *= 2 - denominator * inverse (node_modules/@openzeppelin/contracts/utils/math/Math.sol#124)
-Math.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts/utils/math/Math.sol#55-134) performs a multiplication on the result of a division:
-        - denominator = denominator / twos (node_modules/@openzeppelin/contracts/utils/math/Math.sol#101)
-        - inverse *= 2 - denominator * inverse (node_modules/@openzeppelin/contracts/utils/math/Math.sol#125)
-Math.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts/utils/math/Math.sol#55-134) performs a multiplication on the result of a division:
-        - prod0 = prod0 / twos (node_modules/@openzeppelin/contracts/utils/math/Math.sol#104)
-        - result = prod0 * inverse (node_modules/@openzeppelin/contracts/utils/math/Math.sol#131)
-Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#divide-before-multiply
-INFO:Detectors:
 Reentrancy in NFTAuction.startAuction() (contracts/examples/nft-auction/NFTAuction.sol#228-241):
         External calls:
         - _nft.transferFrom(msg.sender,address(this),_nftId) (contracts/examples/nft-auction/NFTAuction.sol#235)
@@ -126,8 +177,6 @@ Reentrancy in FeeContract.updateFee() (contracts/vendor/fee/FeeContract.sol#715-
         - FeeContract.updateFee() (contracts/vendor/fee/FeeContract.sol#715-731)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#reentrancy-vulnerabilities-1
 INFO:Detectors:
-ERC1967UpgradeUpgradeable._upgradeToAndCall(address,bytes,bool) (node_modules/@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol#65-70) ignores return value by AddressUpgradeable.functionDelegateCall(newImplementation,data) (node_modules/@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol#68)
-ERC1967UpgradeUpgradeable._upgradeBeaconToAndCall(address,bytes,bool) (node_modules/@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol#156-162) ignores return value by AddressUpgradeable.functionDelegateCall(IBeaconUpgradeable(newBeacon).implementation(),data) (node_modules/@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol#160)
 NFTAuction._validateUserType(address) (contracts/examples/nft-auction/NFTAuction.sol#553-556) ignores return value by (user,exp,None) = _proofOfIdentity.getUserType(account) (contracts/examples/nft-auction/NFTAuction.sol#554)
 NFTAuction._validateUserTypeExn(address) (contracts/examples/nft-auction/NFTAuction.sol#572-582) ignores return value by (user,exp,None) = _proofOfIdentity.getUserType(account) (contracts/examples/nft-auction/NFTAuction.sol#573)
 FeeContract.initialize(address,address[],uint256[],address,address,address,uint256,uint256,uint256,uint256) (contracts/vendor/fee/FeeContract.sol#340-416) ignores return value by IFeeOracle(oracle).refreshOracle() (contracts/vendor/fee/FeeContract.sol#378)
@@ -139,12 +188,6 @@ SimpleStorage.initialize(address,address,address,address,string[],uint256[]).ass
         - H1DevelopedApplication.association() (contracts/vendor/h1-developed-application/H1DevelopedApplication.sol#734-736) (function)
 SimpleStorage.initialize(address,address,address,address,string[],uint256[]).developer (contracts/examples/simple-storage/SimpleStorage.sol#77) shadows:
         - H1DevelopedApplication.developer() (contracts/vendor/h1-developed-application/H1DevelopedApplication.sol#742-744) (function)
-ProofOfIdentity.addAttribute(string,SupportedAttributeType).name (contracts/vendor/proof-of-identity/ProofOfIdentity.sol#455) shadows:
-        - ERC721Upgradeable.name() (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol#84-86) (function)
-        - IERC721MetadataUpgradeable.name() (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/extensions/IERC721MetadataUpgradeable.sol#16) (function)
-ProofOfIdentity.setAttributeName(uint256,string).name (contracts/vendor/proof-of-identity/ProofOfIdentity.sol#779) shadows:
-        - ERC721Upgradeable.name() (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol#84-86) (function)
-        - IERC721MetadataUpgradeable.name() (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/extensions/IERC721MetadataUpgradeable.sol#16) (function)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#local-variable-shadowing
 INFO:Detectors:
 H1DevelopedApplication.setAssociation(address).association_ (contracts/vendor/h1-developed-application/H1DevelopedApplication.sol#642) lacks a zero-check on :
@@ -213,20 +256,6 @@ Reentrancy in SimpleStorage.incrementCount() (contracts/examples/simple-storage/
                 - (success,None) = to.call{value: amount}(new bytes(0)) (contracts/vendor/h1-developed-application/H1DevelopedApplication.sol#828)
         State variables written after the call(s):
         - _count ++ (contracts/examples/simple-storage/SimpleStorage.sol#110)
-Reentrancy in NFTAuction.initialize(address,address,address,address,address,string[],uint256[],Config) (contracts/examples/nft-auction/NFTAuction.sol#176-215):
-        External calls:
-        - __H1DevelopedApplication_init(feeContract_,association_,developer_,feeCollector_,fnSigs_,fnFees_) (contracts/examples/nft-auction/NFTAuction.sol#194-201)
-                - IFeeContract(feeContract_).setGraceContract(true) (contracts/vendor/h1-developed-application/H1DevelopedApplication.sol#312)
-        State variables written after the call(s):
-        - _auctionKind = auctionConfig_.kind (contracts/examples/nft-auction/NFTAuction.sol#209)
-        - _auctionLength = auctionConfig_.length (contracts/examples/nft-auction/NFTAuction.sol#210)
-        - _beneficiary = auctionConfig_.beneficiary (contracts/examples/nft-auction/NFTAuction.sol#214)
-        - _highestBid = auctionConfig_.startingBid (contracts/examples/nft-auction/NFTAuction.sol#211)
-        - _nft = IERC721Upgradeable(auctionConfig_.nft) (contracts/examples/nft-auction/NFTAuction.sol#212)
-        - _nftId = auctionConfig_.nftID (contracts/examples/nft-auction/NFTAuction.sol#213)
-        - _proofOfIdentity = IProofOfIdentity(proofOfIdentity_) (contracts/examples/nft-auction/NFTAuction.sol#207)
-        - __ReentrancyGuard_init() (contracts/examples/nft-auction/NFTAuction.sol#203)
-                - _status = _NOT_ENTERED (node_modules/@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol#45)
 Reentrancy in FeeContract.initialize(address,address[],uint256[],address,address,address,uint256,uint256,uint256,uint256) (contracts/vendor/fee/FeeContract.sol#340-416):
         External calls:
         - IFeeOracle(oracle).refreshOracle() (contracts/vendor/fee/FeeContract.sol#378)
@@ -373,225 +402,10 @@ ProofOfIdentity._validateExpiry(uint256) (contracts/vendor/proof-of-identity/Pro
         - expiry > block.timestamp (contracts/vendor/proof-of-identity/ProofOfIdentity.sol#933)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#block-timestamp
 INFO:Detectors:
-ERC721Upgradeable._checkOnERC721Received(address,address,uint256,bytes) (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol#404-426) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol#418-420)
-AddressUpgradeable._revert(bytes,string) (node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol#231-243) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol#236-239)
-StorageSlotUpgradeable.getAddressSlot(bytes32) (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#62-67) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#64-66)
-StorageSlotUpgradeable.getBooleanSlot(bytes32) (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#72-77) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#74-76)
-StorageSlotUpgradeable.getBytes32Slot(bytes32) (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#82-87) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#84-86)
-StorageSlotUpgradeable.getUint256Slot(bytes32) (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#92-97) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#94-96)
-StorageSlotUpgradeable.getStringSlot(bytes32) (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#102-107) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#104-106)
-StorageSlotUpgradeable.getStringSlot(string) (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#112-117) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#114-116)
-StorageSlotUpgradeable.getBytesSlot(bytes32) (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#122-127) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#124-126)
-StorageSlotUpgradeable.getBytesSlot(bytes) (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#132-137) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#134-136)
-StringsUpgradeable.toString(uint256) (node_modules/@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol#19-39) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol#25-27)
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol#31-33)
-MathUpgradeable.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#55-134) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#62-66)
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#85-92)
-        - INLINE ASM (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#99-108)
-ERC721._checkOnERC721Received(address,address,uint256,bytes) (node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol#399-421) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol#413-415)
-Address._revert(bytes,string) (node_modules/@openzeppelin/contracts/utils/Address.sol#231-243) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts/utils/Address.sol#236-239)
-Strings.toString(uint256) (node_modules/@openzeppelin/contracts/utils/Strings.sol#19-39) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts/utils/Strings.sol#25-27)
-        - INLINE ASM (node_modules/@openzeppelin/contracts/utils/Strings.sol#31-33)
-Math.mulDiv(uint256,uint256,uint256) (node_modules/@openzeppelin/contracts/utils/math/Math.sol#55-134) uses assembly
-        - INLINE ASM (node_modules/@openzeppelin/contracts/utils/math/Math.sol#62-66)
-        - INLINE ASM (node_modules/@openzeppelin/contracts/utils/math/Math.sol#85-92)
-        - INLINE ASM (node_modules/@openzeppelin/contracts/utils/math/Math.sol#99-108)
-Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#assembly-usage
-INFO:Detectors:
-3 different versions of Solidity are used:
-        - Version constraint ^0.8.0 is used by:
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/access/IAccessControlUpgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/interfaces/IERC1967Upgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/interfaces/draft-IERC1822Upgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/proxy/beacon/IBeaconUpgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/extensions/IERC721MetadataUpgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#5)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/math/SignedMathUpgradeable.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts/access/AccessControl.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts/access/IAccessControl.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts/utils/Context.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts/utils/Strings.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts/utils/math/Math.sol#4)
-                -^0.8.0 (node_modules/@openzeppelin/contracts/utils/math/SignedMath.sol#4)
-                -^0.8.0 (contracts/examples/nft-auction/NFTAuction.sol#2)
-                -^0.8.0 (contracts/examples/nft-auction/components/Errors.sol#2)
-                -^0.8.0 (contracts/examples/nft-auction/components/NFTAuctionConfig.sol#2)
-                -^0.8.0 (contracts/examples/simple-storage/SimpleStorage.sol#3)
-                -^0.8.0 (contracts/vendor/fee/FeeContract.sol#2)
-                -^0.8.0 (contracts/vendor/fee/interfaces/IFeeContract.sol#2)
-                -^0.8.0 (contracts/vendor/fee/interfaces/IFeeOracle.sol#2)
-                -^0.8.0 (contracts/vendor/h1-developed-application/H1DevelopedApplication.sol#3)
-                -^0.8.0 (contracts/vendor/h1-developed-application/components/Errors.sol#3)
-                -^0.8.0 (contracts/vendor/h1-developed-application/components/H1DevelopedAccessControl.sol#3)
-                -^0.8.0 (contracts/vendor/h1-developed-application/components/H1DevelopedPausable.sol#3)
-                -^0.8.0 (contracts/vendor/h1-developed-application/components/H1DevelopedUtils.sol#3)
-                -^0.8.0 (contracts/vendor/h1-developed-application/interfaces/IH1DevelopedApplication.sol#2)
-                -^0.8.0 (contracts/vendor/h1-developed-application/interfaces/IH1DevelopedPausable.sol#2)
-                -^0.8.0 (contracts/vendor/mocks/FixedFeeOracle.sol#2)
-                -^0.8.0 (contracts/vendor/mocks/MockAccountManager.sol#2)
-                -^0.8.0 (contracts/vendor/mocks/MockNFT.sol#2)
-                -^0.8.0 (contracts/vendor/mocks/MockPermissionsInterface.sol#2)
-                -^0.8.0 (contracts/vendor/proof-of-identity/ProofOfIdentity.sol#2)
-                -^0.8.0 (contracts/vendor/proof-of-identity/interfaces/IProofOfIdentity.sol#2)
-                -^0.8.0 (contracts/vendor/proof-of-identity/interfaces/vendor/IAccountManager.sol#2)
-                -^0.8.0 (contracts/vendor/proof-of-identity/interfaces/vendor/IPermissionsInterface.sol#2)
-                -^0.8.0 (contracts/vendor/proof-of-identity/libraries/AttributeUtils.sol#3)
-                -^0.8.0 (contracts/vendor/proof-of-identity/libraries/BytesConversion.sol#3)
-        - Version constraint ^0.8.2 is used by:
-                -^0.8.2 (node_modules/@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol#4)
-                -^0.8.2 (node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol#4)
-        - Version constraint ^0.8.1 is used by:
-                -^0.8.1 (node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol#4)
-                -^0.8.1 (node_modules/@openzeppelin/contracts/utils/Address.sol#4)
-Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#different-pragma-directives-are-used
-INFO:Detectors:
 FeeContract.initialize(address,address[],uint256[],address,address,address,uint256,uint256,uint256,uint256) (contracts/vendor/fee/FeeContract.sol#340-416) has costly operations inside a loop:
         - _contractShares += weight (contracts/vendor/fee/FeeContract.sol#412)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#costly-operations-inside-a-loop
 INFO:Detectors:
-Version constraint ^0.8.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
-        - FullInlinerNonExpressionSplitArgumentEvaluationOrder
-        - MissingSideEffectsOnSelectorAccess
-        - AbiReencodingHeadOverflowWithStaticArrayCleanup
-        - DirtyBytesArrayToStorage
-        - DataLocationChangeInInternalOverride
-        - NestedCalldataArrayAbiReencodingSizeValidation
-        - SignedImmutables
-        - ABIDecodeTwoDimensionalArrayMemory
-        - KeccakCaching.
-It is used by:
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/access/IAccessControlUpgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/interfaces/IERC1967Upgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/interfaces/draft-IERC1822Upgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/proxy/beacon/IBeaconUpgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/IERC721ReceiverUpgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/IERC721Upgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/extensions/IERC721MetadataUpgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/StorageSlotUpgradeable.sol#5)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/StringsUpgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/introspection/IERC165Upgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/math/MathUpgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts-upgradeable/utils/math/SignedMathUpgradeable.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts/access/AccessControl.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts/access/IAccessControl.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts/token/ERC721/IERC721.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts/utils/Context.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts/utils/Strings.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts/utils/math/Math.sol#4)
-        - ^0.8.0 (node_modules/@openzeppelin/contracts/utils/math/SignedMath.sol#4)
-        - ^0.8.0 (contracts/examples/nft-auction/NFTAuction.sol#2)
-        - ^0.8.0 (contracts/examples/nft-auction/components/Errors.sol#2)
-        - ^0.8.0 (contracts/examples/nft-auction/components/NFTAuctionConfig.sol#2)
-        - ^0.8.0 (contracts/examples/simple-storage/SimpleStorage.sol#3)
-        - ^0.8.0 (contracts/vendor/fee/FeeContract.sol#2)
-        - ^0.8.0 (contracts/vendor/fee/interfaces/IFeeContract.sol#2)
-        - ^0.8.0 (contracts/vendor/fee/interfaces/IFeeOracle.sol#2)
-        - ^0.8.0 (contracts/vendor/h1-developed-application/H1DevelopedApplication.sol#3)
-        - ^0.8.0 (contracts/vendor/h1-developed-application/components/Errors.sol#3)
-        - ^0.8.0 (contracts/vendor/h1-developed-application/components/H1DevelopedAccessControl.sol#3)
-        - ^0.8.0 (contracts/vendor/h1-developed-application/components/H1DevelopedPausable.sol#3)
-        - ^0.8.0 (contracts/vendor/h1-developed-application/components/H1DevelopedUtils.sol#3)
-        - ^0.8.0 (contracts/vendor/h1-developed-application/interfaces/IH1DevelopedApplication.sol#2)
-        - ^0.8.0 (contracts/vendor/h1-developed-application/interfaces/IH1DevelopedPausable.sol#2)
-        - ^0.8.0 (contracts/vendor/mocks/FixedFeeOracle.sol#2)
-        - ^0.8.0 (contracts/vendor/mocks/MockAccountManager.sol#2)
-        - ^0.8.0 (contracts/vendor/mocks/MockNFT.sol#2)
-        - ^0.8.0 (contracts/vendor/mocks/MockPermissionsInterface.sol#2)
-        - ^0.8.0 (contracts/vendor/proof-of-identity/ProofOfIdentity.sol#2)
-        - ^0.8.0 (contracts/vendor/proof-of-identity/interfaces/IProofOfIdentity.sol#2)
-        - ^0.8.0 (contracts/vendor/proof-of-identity/interfaces/vendor/IAccountManager.sol#2)
-        - ^0.8.0 (contracts/vendor/proof-of-identity/interfaces/vendor/IPermissionsInterface.sol#2)
-        - ^0.8.0 (contracts/vendor/proof-of-identity/libraries/AttributeUtils.sol#3)
-        - ^0.8.0 (contracts/vendor/proof-of-identity/libraries/BytesConversion.sol#3)
-Version constraint ^0.8.2 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
-        - FullInlinerNonExpressionSplitArgumentEvaluationOrder
-        - MissingSideEffectsOnSelectorAccess
-        - AbiReencodingHeadOverflowWithStaticArrayCleanup
-        - DirtyBytesArrayToStorage
-        - DataLocationChangeInInternalOverride
-        - NestedCalldataArrayAbiReencodingSizeValidation
-        - SignedImmutables
-        - ABIDecodeTwoDimensionalArrayMemory
-        - KeccakCaching.
-It is used by:
-        - ^0.8.2 (node_modules/@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol#4)
-        - ^0.8.2 (node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol#4)
-Version constraint ^0.8.1 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
-        - FullInlinerNonExpressionSplitArgumentEvaluationOrder
-        - MissingSideEffectsOnSelectorAccess
-        - AbiReencodingHeadOverflowWithStaticArrayCleanup
-        - DirtyBytesArrayToStorage
-        - DataLocationChangeInInternalOverride
-        - NestedCalldataArrayAbiReencodingSizeValidation
-        - SignedImmutables
-        - ABIDecodeTwoDimensionalArrayMemory
-        - KeccakCaching.
-It is used by:
-        - ^0.8.1 (node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol#4)
-        - ^0.8.1 (node_modules/@openzeppelin/contracts/utils/Address.sol#4)
-Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
-INFO:Detectors:
-Low level call in AddressUpgradeable.sendValue(address,uint256) (node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol#64-69):
-        - (success,None) = recipient.call{value: amount}() (node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol#67)
-Low level call in AddressUpgradeable.functionCallWithValue(address,bytes,uint256,string) (node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol#128-137):
-        - (success,returndata) = target.call{value: value}(data) (node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol#135)
-Low level call in AddressUpgradeable.functionStaticCall(address,bytes,string) (node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol#155-162):
-        - (success,returndata) = target.staticcall(data) (node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol#160)
-Low level call in AddressUpgradeable.functionDelegateCall(address,bytes,string) (node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol#180-187):
-        - (success,returndata) = target.delegatecall(data) (node_modules/@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol#185)
-Low level call in Address.sendValue(address,uint256) (node_modules/@openzeppelin/contracts/utils/Address.sol#64-69):
-        - (success,None) = recipient.call{value: amount}() (node_modules/@openzeppelin/contracts/utils/Address.sol#67)
-Low level call in Address.functionCallWithValue(address,bytes,uint256,string) (node_modules/@openzeppelin/contracts/utils/Address.sol#128-137):
-        - (success,returndata) = target.call{value: value}(data) (node_modules/@openzeppelin/contracts/utils/Address.sol#135)
-Low level call in Address.functionStaticCall(address,bytes,string) (node_modules/@openzeppelin/contracts/utils/Address.sol#155-162):
-        - (success,returndata) = target.staticcall(data) (node_modules/@openzeppelin/contracts/utils/Address.sol#160)
-Low level call in Address.functionDelegateCall(address,bytes,string) (node_modules/@openzeppelin/contracts/utils/Address.sol#180-187):
-        - (success,returndata) = target.delegatecall(data) (node_modules/@openzeppelin/contracts/utils/Address.sol#185)
 Low level call in NFTAuction._withdraw(address,uint256) (contracts/examples/nft-auction/NFTAuction.sol#484-487):
         - (success,None) = address(to).call{value: amount}() (contracts/examples/nft-auction/NFTAuction.sol#485)
 Low level call in FeeContract._distributeFees() (contracts/vendor/fee/FeeContract.sol#859-873):
@@ -605,33 +419,6 @@ FixedFeeOracle (contracts/vendor/mocks/FixedFeeOracle.sol#6-37) should inherit f
 ProofOfIdentity (contracts/vendor/proof-of-identity/ProofOfIdentity.sol#45-935) should inherit from IProofOfIdentity (contracts/vendor/proof-of-identity/interfaces/IProofOfIdentity.sol#9-325)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#missing-inheritance
 INFO:Detectors:
-Function AccessControlUpgradeable.__AccessControl_init() (node_modules/@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol#76-77) is not in mixedCase
-Function AccessControlUpgradeable.__AccessControl_init_unchained() (node_modules/@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol#79-80) is not in mixedCase
-Variable AccessControlUpgradeable.__gap (node_modules/@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol#260) is not in mixedCase
-Function ERC1967UpgradeUpgradeable.__ERC1967Upgrade_init() (node_modules/@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol#30-31) is not in mixedCase
-Function ERC1967UpgradeUpgradeable.__ERC1967Upgrade_init_unchained() (node_modules/@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol#33-34) is not in mixedCase
-Variable ERC1967UpgradeUpgradeable.__gap (node_modules/@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol#169) is not in mixedCase
-Function UUPSUpgradeable.__UUPSUpgradeable_init() (node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol#48-49) is not in mixedCase
-Function UUPSUpgradeable.__UUPSUpgradeable_init_unchained() (node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol#51-52) is not in mixedCase
-Variable UUPSUpgradeable.__self (node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol#24) is not in mixedCase
-Variable UUPSUpgradeable.__gap (node_modules/@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol#111) is not in mixedCase
-Function PausableUpgradeable.__Pausable_init() (node_modules/@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol#34-36) is not in mixedCase
-Function PausableUpgradeable.__Pausable_init_unchained() (node_modules/@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol#38-40) is not in mixedCase
-Variable PausableUpgradeable.__gap (node_modules/@openzeppelin/contracts-upgradeable/security/PausableUpgradeable.sol#116) is not in mixedCase
-Function ReentrancyGuardUpgradeable.__ReentrancyGuard_init() (node_modules/@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol#40-42) is not in mixedCase
-Function ReentrancyGuardUpgradeable.__ReentrancyGuard_init_unchained() (node_modules/@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol#44-46) is not in mixedCase
-Variable ReentrancyGuardUpgradeable.__gap (node_modules/@openzeppelin/contracts-upgradeable/security/ReentrancyGuardUpgradeable.sol#88) is not in mixedCase
-Function ERC721Upgradeable.__ERC721_init(string,string) (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol#45-47) is not in mixedCase
-Function ERC721Upgradeable.__ERC721_init_unchained(string,string) (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol#49-52) is not in mixedCase
-Function ERC721Upgradeable.__unsafe_increaseBalance(address,uint256) (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol#468-470) is not in mixedCase
-Variable ERC721Upgradeable.__gap (node_modules/@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol#477) is not in mixedCase
-Function ContextUpgradeable.__Context_init() (node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol#18-19) is not in mixedCase
-Function ContextUpgradeable.__Context_init_unchained() (node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol#21-22) is not in mixedCase
-Variable ContextUpgradeable.__gap (node_modules/@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol#40) is not in mixedCase
-Function ERC165Upgradeable.__ERC165_init() (node_modules/@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol#24-25) is not in mixedCase
-Function ERC165Upgradeable.__ERC165_init_unchained() (node_modules/@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol#27-28) is not in mixedCase
-Variable ERC165Upgradeable.__gap (node_modules/@openzeppelin/contracts-upgradeable/utils/introspection/ERC165Upgradeable.sol#41) is not in mixedCase
-Function ERC721.__unsafe_increaseBalance(address,uint256) (node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol#463-465) is not in mixedCase
 Parameter FeeContract.addChannel(address,uint256)._newChannelAddress (contracts/vendor/fee/FeeContract.sol#434) is not in mixedCase
 Parameter FeeContract.addChannel(address,uint256)._weight (contracts/vendor/fee/FeeContract.sol#435) is not in mixedCase
 Parameter FeeContract.adjustChannel(address,address,uint256)._oldChannelAddress (contracts/vendor/fee/FeeContract.sol#472) is not in mixedCase
@@ -667,6 +454,5 @@ INFO:Detectors:
 MockNFT._maxSupply (contracts/vendor/mocks/MockNFT.sol#14) should be immutable
 MockPermissionsInterface._accountManager (contracts/vendor/mocks/MockPermissionsInterface.sol#8) should be immutable
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#state-variables-that-could-be-declared-immutable
-INFO:Slither:. analyzed (58 contracts with 100 detectors), 163 result(s) found
-PS D:\Haven1\dev-onboarding-template> ^C
+INFO:Slither:. analyzed (58 contracts with 100 detectors), 85 result(s) found
 PS D:\Haven1\dev-onboarding-template>
