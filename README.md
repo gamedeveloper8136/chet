@@ -1,4 +1,158 @@
-- >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV2ProtocolDataProvider.sol#12)
+   - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/derivatives/IAggregatedDerivativePriceFeedMixin.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/primitives/IChainlinkPriceFeedMixin.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/infrastructure/value-interpreter/IValueInterpreter.sol#12)
+Version constraint 0.7.6 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+        - FullInlinerNonExpressionSplitArgumentEvaluationOrder
+        - MissingSideEffectsOnSelectorAccess
+        - AbiReencodingHeadOverflowWithStaticArrayCleanup
+        - DirtyBytesArrayToStorage
+        - DataLocationChangeInInternalOverride
+        - NestedCalldataArrayAbiReencodingSizeValidation
+        - SignedImmutables
+        - ABIDecodeTwoDimensionalArrayMemory
+        - KeccakCaching.
+It is used by:
+        - 0.7.6 (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#10)
+        - 0.7.6 (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#10)
+        - 0.7.6 (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#18)
+        - 0.7.6 (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/bases/UniswapV3LiquidityPositionLibBase1.sol#12)
+Version constraint >=0.6.0<0.8.0 is too complex.
+It is used by:
+        - >=0.6.0<0.8.0 (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#13)
+        - >=0.6.0<0.8.0 (lib/openzeppelin-solc-0.6/contracts/introspection/IERC165.sol#3)
+        - >=0.6.0<0.8.0 (lib/openzeppelin-solc-0.6/contracts/math/SafeMath.sol#3)
+        - >=0.6.0<0.8.0 (lib/openzeppelin-solc-0.6/contracts/token/ERC20/IERC20.sol#3)
+        - >=0.6.0<0.8.0 (lib/openzeppelin-solc-0.6/contracts/token/ERC20/SafeERC20.sol#3)
+        - >=0.6.0<0.8.0 (lib/openzeppelin-solc-0.7/contracts/utils/Context.sol#3)
+Version constraint >=0.6.2<0.8.0 is too complex.
+It is used by:
+        - >=0.6.2<0.8.0 (lib/openzeppelin-solc-0.6/contracts/token/ERC721/IERC721.sol#3)
+        - >=0.6.2<0.8.0 (lib/openzeppelin-solc-0.6/contracts/token/ERC721/IERC721Enumerable.sol#3)
+        - >=0.6.2<0.8.0 (lib/openzeppelin-solc-0.6/contracts/token/ERC721/IERC721Metadata.sol#3)
+        - >=0.6.2<0.8.0 (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#3)
+Version constraint ^0.7.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+        - FullInlinerNonExpressionSplitArgumentEvaluationOrder
+        - MissingSideEffectsOnSelectorAccess
+        - AbiReencodingHeadOverflowWithStaticArrayCleanup
+        - DirtyBytesArrayToStorage
+        - DataLocationChangeInInternalOverride
+        - NestedCalldataArrayAbiReencodingSizeValidation
+        - SignedImmutables
+        - ABIDecodeTwoDimensionalArrayMemory
+        - KeccakCaching
+        - EmptyByteArrayCopy
+        - DynamicArrayCleanup.
+It is used by:
+        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/introspection/ERC165.sol#3)
+        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/introspection/IERC165.sol#3)
+        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/math/SafeMath.sol#3)
+        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/token/ERC721/ERC721.sol#3)
+        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/token/ERC721/IERC721.sol#3)
+        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/token/ERC721/IERC721Enumerable.sol#3)
+        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/token/ERC721/IERC721Metadata.sol#3)
+        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/token/ERC721/IERC721Receiver.sol#3)
+        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#3)
+        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/utils/EnumerableMap.sol#3)
+        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/utils/EnumerableSet.sol#3)
+        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/utils/Strings.sol#3)
+Version constraint >=0.5.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+        - DirtyBytesArrayToStorage
+        - ABIDecodeTwoDimensionalArrayMemory
+        - KeccakCaching
+        - EmptyByteArrayCopy
+        - DynamicArrayCleanup
+        - ImplicitConstructorCallvalueCheck
+        - TupleAssignmentMultiStackSlotComponents
+        - MemoryArrayCreationOverflow
+        - privateCanBeOverridden
+        - SignedArrayStorageCopy
+        - ABIEncoderV2StorageArrayWithMultiSlotElement
+        - DynamicConstructorArgumentsClippedABIV2
+        - UninitializedFunctionPointerInConstructor
+        - IncorrectEventSignatureInLibraries
+        - ABIEncoderV2PackedStorage.
+It is used by:
+        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/IUniswapV3Pool.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/pool/IUniswapV3PoolActions.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/pool/IUniswapV3PoolDerivedState.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/pool/IUniswapV3PoolEvents.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/pool/IUniswapV3PoolImmutables.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/pool/IUniswapV3PoolOwnerActions.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/pool/IUniswapV3PoolState.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-core/contracts/libraries/LiquidityMath.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-core/contracts/libraries/SafeCast.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-core/contracts/libraries/Tick.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-core/contracts/libraries/TickMath.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-periphery/contracts/interfaces/IPeripheryImmutableState.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-periphery/contracts/libraries/LiquidityAmounts.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-periphery/contracts/libraries/PoolAddress.sol#2)
+        - >=0.5.0 (lib/uniswap-v3-periphery/contracts/libraries/PositionKey.sol#2)
+Version constraint >=0.4.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+        - DirtyBytesArrayToStorage
+        - KeccakCaching
+        - EmptyByteArrayCopy
+        - DynamicArrayCleanup
+        - TupleAssignmentMultiStackSlotComponents
+        - MemoryArrayCreationOverflow
+        - privateCanBeOverridden
+        - IncorrectEventSignatureInLibraries_0.4.x
+        - ExpExponentCleanup
+        - NestedArrayFunctionCallDecoder
+        - ZeroFunctionSelector
+        - DelegateCallReturnValue
+        - ECRecoverMalformedInput
+        - SkipEmptyStringLiteral
+        - ConstantOptimizerSubtraction
+        - IdentityPrecompileReturnIgnored
+        - HighOrderByteCleanStorage
+        - OptimizerStaleKnowledgeAboutSHA3
+        - LibrariesNotCallableFromPayableFunctions.
+It is used by:
+        - >=0.4.0 (lib/uniswap-v3-core/contracts/libraries/FixedPoint128.sol#2)
+        - >=0.4.0 (lib/uniswap-v3-core/contracts/libraries/FixedPoint96.sol#2)
+        - >=0.4.0 (lib/uniswap-v3-core/contracts/libraries/FullMath.sol#2)
+Version constraint >=0.7.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+        - FullInlinerNonExpressionSplitArgumentEvaluationOrder
+        - MissingSideEffectsOnSelectorAccess
+        - AbiReencodingHeadOverflowWithStaticArrayCleanup
+        - DirtyBytesArrayToStorage
+        - DataLocationChangeInInternalOverride
+        - NestedCalldataArrayAbiReencodingSizeValidation
+        - SignedImmutables
+        - ABIDecodeTwoDimensionalArrayMemory
+        - KeccakCaching
+        - EmptyByteArrayCopy
+        - DynamicArrayCleanup.
+It is used by:
+        - >=0.7.0 (lib/uniswap-v3-core/contracts/libraries/LowGasSafeMath.sol#2)
+Version constraint >=0.7.5 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
+        - FullInlinerNonExpressionSplitArgumentEvaluationOrder
+        - MissingSideEffectsOnSelectorAccess
+        - AbiReencodingHeadOverflowWithStaticArrayCleanup
+        - DirtyBytesArrayToStorage
+        - DataLocationChangeInInternalOverride
+        - NestedCalldataArrayAbiReencodingSizeValidation
+        - SignedImmutables
+        - ABIDecodeTwoDimensionalArrayMemory
+        - KeccakCaching.
+It is used by:
+        - >=0.7.5 (lib/uniswap-v3-periphery/contracts/interfaces/IERC721Permit.sol#2)
+        - >=0.7.5 (lib/uniswap-v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol#2)
+        - >=0.7.5 (lib/uniswap-v3-periphery/contracts/interfaces/IPeripheryPayments.sol#2)
+        - >=0.7.5 (lib/uniswap-v3-periphery/contracts/interfaces/IPoolInitializer.sol#2)
+Version constraint >=0.6.8<0.8.0 is too complex.
+It is used by:
+        - >=0.6.8<0.8.0 (lib/uniswap-v3-periphery/contracts/libraries/PositionValue.sol#2)
+solc-0.7.6 is an outdated solc version. Use a more recent version (at least 0.8.0), if possible.
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
+
+Version constraint >=0.6.0<0.9.0 is too complex.
+It is used by:
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveAToken.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV2IncentivesController.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV2LendingPool.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV2LendingPoolAddressProvider.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV2ProtocolDataProvider.sol#12)
         - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV3Pool.sol#12)
         - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV3PoolAddressProvider.sol#12)
         - >=0.6.0<0.9.0 (contracts/external-interfaces/IBalancerV2LiquidityGauge.sol#10)
@@ -294,162 +448,198 @@ It is used by:
         - >=0.6.2<0.8.0 (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#3)
 solc-0.6.12 is an outdated solc version. Use a more recent version (at least 0.8.0), if possible.
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
-INFO:Detectors:
+
 Version constraint >=0.6.0<0.9.0 is too complex.
 It is used by:
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveAToken.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV2IncentivesController.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV2LendingPool.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV2LendingPoolAddressProvider.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV2ProtocolDataProvider.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV3FlashLoanReceiver.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV3Pool.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV3PoolAddressProvider.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV3ProtocolDataProvider.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV3RewardsController.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAliceOrderManager.sol#11)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IBalancerV2LiquidityGauge.sol#10)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IBalancerV2PoolFactory.sol#10)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IBalancerV2StablePool.sol#10)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IBalancerV2Vault.sol#10)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IBalancerV2WeightedPool.sol#10)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IChainlinkAggregator.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICompoundComptroller.sol#10)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICompoundV2CERC20.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICompoundV2CEther.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICompoundV3Comet.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICompoundV3CometRewards.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICompoundV3Configurator.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IConvexBaseRewardPool.sol#10)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IConvexCvxLockerV2.sol#10)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IConvexVlCvxExtraRewardDistribution.sol#10)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveAddressProvider.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveLiquidityGaugeV2.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveLiquidityPool.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveMinter.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurvePoolOwner.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveRegistryMain.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveRegistryMetapoolFactory.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveV2TwocryptoPool.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IDivaEther.sol#12)
         - >=0.6.0<0.9.0 (contracts/external-interfaces/IERC20.sol#2)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IERC20Burnable.sol#2)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IERC4626.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IEtherFiWrappedEth.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2ChainlinkPriceFeedProvider.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2DataStore.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2Event.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2Market.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2Order.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2OrderHandler.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2Position.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2Price.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2Reader.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2RoleStore.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGsnForwarder.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGsnPaymaster.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGsnRelayHub.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGsnTypes.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IKilnStakingContract.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ILidoSteth.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ILidoWithdrawalQueue.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ILiquityBorrowerOperations.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ILiquityColSurplusPool.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ILiquityTroveManager.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMapleV2Globals.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMapleV2Pool.sol#13)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMapleV2PoolManager.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMapleV2ProxyFactory.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMapleV2WithdrawalManager.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMerklDistributor.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMorphoBlue.sol#11)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMorphoBlueFlashLoanCallback.sol#11)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IOneInchV5AggregationRouter.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IParaSwapV5AugustusSwapper.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IParaSwapV6AugustusSwapper.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IPendleV2Market.sol#15)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IPendleV2PrincipalToken.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IPendleV2PyYtLpOracle.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IPendleV2Router.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IPendleV2StandardizedYield.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ISmarDexOracleMiddleware.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ISmarDexUsdnProtocol.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ISnapshotDelegateRegistry.sol#10)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ISolvBTCYieldToken.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IStaderOracle.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IStaderStakePoolsManager.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IStaderUserWithdrawalManager.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IStakeWiseV3EthVault.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IStakeWiseV3VaultsRegistry.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ISwellSweth.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITermFinanceV1Auction.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITermFinanceV1AuctionOfferLocker.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITermFinanceV1Controller.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITermFinanceV1RepoCollateralManager.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITermFinanceV1RepoServicer.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITermFinanceV1RepoToken.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITheGraphStaking.sol#10)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IUniswapV2Factory.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IUniswapV2Pair.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IUniswapV2Router2.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IUniswapV3SwapRouter.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IVotiumMultiMerkleStash.sol#10)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IWETH.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IYearnVaultV2.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IYearnVaultV2Registry.sol#12)
+        - >=0.6.0<0.9.0 (contracts/external-interfaces/IZeroExV4.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/address-list-registry/IAddressListRegistry.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/address-list-registry/address-list-owners/utils/IAddOnlyAddressListOwner.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/arbitrary-value-oracles/IArbitraryValueOracle.sol#10)
+        - >=0.6.0<0.9.0 (contracts/persistent/dispatcher/IDispatcher.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/dispatcher/IMigrationHookHandler.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/external-positions/IExternalPositionFactory.sol#10)
         - >=0.6.0<0.9.0 (contracts/persistent/external-positions/IExternalPositionLibCore.sol#10)
+        - >=0.6.0<0.9.0 (contracts/persistent/external-positions/IExternalPositionProxy.sol#10)
+        - >=0.6.0<0.9.0 (contracts/persistent/global-config/interfaces/IGlobalConfig1.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/global-config/interfaces/IGlobalConfig2.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/global-config/interfaces/IGlobalConfigLibComptrollerV4.sol#10)
+        - >=0.6.0<0.9.0 (contracts/persistent/off-chain/fund-value-calculator/IFundValueCalculator.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/off-chain/helper-data-reader/IHelperDataReader.sol#3)
+        - >=0.6.0<0.9.0 (contracts/persistent/protocol-fee-reserve/interfaces/IProtocolFeeReserve1.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/shares-wrappers/gated-redemption-queue/IGatedRedemptionQueueSharesWrapper.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/single-asset-deposit-queue/ISingleAssetDepositQueue.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/single-asset-redemption-queue/ISingleAssetRedemptionQueue.sol#14)
+        - >=0.6.0<0.9.0 (contracts/persistent/smart-accounts/aave-v3-flash-loan-asset-manager/IAaveV3FlashLoanAssetManager.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/smart-accounts/morpho-blue-flash-loan-asset-manager/IMorphoBlueFlashLoanAssetManager.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/smart-accounts/share-price-throttled-asset-manager/ISharePriceThrottledAssetManagerLib.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/smart-accounts/utils/interfaces/IMultiCallAccountMixin.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/uint-list-registry/IUintListRegistry.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/vault/interfaces/IExternalPositionVault.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/vault/interfaces/IFreelyTransferableSharesVault.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/vault/interfaces/IMigratableVault.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/vault/interfaces/IVaultCore.sol#12)
+        - >=0.6.0<0.9.0 (contracts/persistent/vault/utils/IProxiableVaultLib.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/core/fund/comptroller/IComptroller.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/core/fund/vault/IVault.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/core/fund-deployer/IFundDeployer.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/IExtension.sol#12)
         - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/IExternalPosition.sol#10)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/IExternalPositionManager.sol#12)
         - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/IExternalPositionParser.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/aave-v2-debt/IAaveDebtPosition.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/arbitrary-loan/IArbitraryLoanPosition.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/arbitrary-loan/modules/IArbitraryLoanAccountingModule.sol#10)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/compound-debt/ICompoundDebtPosition.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/convex-voting/IConvexVotingPosition.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/kiln-staking/IKilnStakingPosition.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/liquity-debt/ILiquityDebtPosition.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/maple-liquidity/IMapleLiquidityPosition.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/morpho-blue/IMorphoBluePosition.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/pendle-v2/IPendleV2Position.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/pendle-v2/markets-registry/IPendleV2MarketRegistry.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/stakewise-v3-staking/IStakeWiseV3StakingPosition.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/term-finance-v1-lending/ITermFinanceV1LendingPosition.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/the-graph-delegation/ITheGraphDelegationPosition.sol#12)
         - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/IUniswapV3LiquidityPosition.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/fee-manager/IFee.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/fee-manager/IFeeManager.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/fee-manager/fees/interfaces/IManagementFee.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/fee-manager/fees/interfaces/IPerformanceFee.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/fee-manager/fees/utils/interfaces/IExitRateFeeBase.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/IIntegrationAdapter.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/IIntegrationManager.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/adapters/interfaces/IParaSwapV5Adapter.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/adapters/interfaces/IParaSwapV6Adapter.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/adapters/interfaces/IPendleV2Adapter.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/adapters/interfaces/ITransferAssetsAdapter.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/adapters/interfaces/IZeroExV4Adapter.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/utils/IntegrationSelectors.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/utils/interfaces/ICurveLiquidityAdapterBase.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/policy-manager/IPolicy.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/policy-manager/IPolicyManager.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/policy-manager/policies/interfaces/ICumulativeSlippageTolerancePolicy.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/policy-manager/policies/interfaces/IMinMaxInvestmentPolicy.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/extensions/policy-manager/policies/utils/interfaces/INoDepegPolicyBase.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/infrastructure/gas-relayer/IGasRelayPaymaster.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/infrastructure/gas-relayer/IGasRelayPaymasterDepositor.sol#12)
         - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/derivatives/IAggregatedDerivativePriceFeedMixin.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/derivatives/IDerivativePriceFeed.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/derivatives/feeds/interfaces/IBalancerV2StablePoolPriceFeed.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/derivatives/feeds/interfaces/ICurvePriceFeed.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/derivatives/feeds/interfaces/IUniswapV2PoolPriceFeed.sol#12)
         - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/primitives/IChainlinkPriceFeedMixin.sol#12)
+        - >=0.6.0<0.9.0 (contracts/release/infrastructure/protocol-fees/IProtocolFeeTracker.sol#12)
         - >=0.6.0<0.9.0 (contracts/release/infrastructure/value-interpreter/IValueInterpreter.sol#12)
-Version constraint 0.7.6 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
-        - FullInlinerNonExpressionSplitArgumentEvaluationOrder
-        - MissingSideEffectsOnSelectorAccess
-        - AbiReencodingHeadOverflowWithStaticArrayCleanup
-        - DirtyBytesArrayToStorage
-        - DataLocationChangeInInternalOverride
-        - NestedCalldataArrayAbiReencodingSizeValidation
-        - SignedImmutables
-        - ABIDecodeTwoDimensionalArrayMemory
-        - KeccakCaching.
+        - >=0.6.0<0.9.0 (contracts/release/off-chain/interfaces/IHelperDataReader.sol#12)
+        - >=0.6.0<0.9.0 (contracts/utils/0.8.19/deprecated/beacon-proxy/IBeacon.sol#14)
+        - >=0.6.0<0.9.0 (contracts/utils/0.8.19/deprecated/beacon-proxy/IBeaconProxyFactory.sol#16)
+        - >=0.6.0<0.9.0 (contracts/utils/0.8.19/dispatcher-owned-beacon/IDispatcherOwnedBeacon.sol#10)
+        - >=0.6.0<0.9.0 (contracts/utils/0.8.19/dispatcher-owned-beacon/IDispatcherOwnedBeaconFactory.sol#10)
+Version constraint >=0.8.0<0.9.0 is too complex.
 It is used by:
-        - 0.7.6 (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#10)
-        - 0.7.6 (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#10)
-        - 0.7.6 (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#18)
-        - 0.7.6 (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/bases/UniswapV3LiquidityPositionLibBase1.sol#12)
-Version constraint >=0.6.0<0.8.0 is too complex.
-It is used by:
-        - >=0.6.0<0.8.0 (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#13)
-        - >=0.6.0<0.8.0 (lib/openzeppelin-solc-0.6/contracts/introspection/IERC165.sol#3)
-        - >=0.6.0<0.8.0 (lib/openzeppelin-solc-0.6/contracts/math/SafeMath.sol#3)
-        - >=0.6.0<0.8.0 (lib/openzeppelin-solc-0.6/contracts/token/ERC20/IERC20.sol#3)
-        - >=0.6.0<0.8.0 (lib/openzeppelin-solc-0.6/contracts/token/ERC20/SafeERC20.sol#3)
-        - >=0.6.0<0.8.0 (lib/openzeppelin-solc-0.7/contracts/utils/Context.sol#3)
-Version constraint >=0.6.2<0.8.0 is too complex.
-It is used by:
-        - >=0.6.2<0.8.0 (lib/openzeppelin-solc-0.6/contracts/token/ERC721/IERC721.sol#3)
-        - >=0.6.2<0.8.0 (lib/openzeppelin-solc-0.6/contracts/token/ERC721/IERC721Enumerable.sol#3)
-        - >=0.6.2<0.8.0 (lib/openzeppelin-solc-0.6/contracts/token/ERC721/IERC721Metadata.sol#3)
-        - >=0.6.2<0.8.0 (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#3)
-Version constraint ^0.7.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
-        - FullInlinerNonExpressionSplitArgumentEvaluationOrder
-        - MissingSideEffectsOnSelectorAccess
-        - AbiReencodingHeadOverflowWithStaticArrayCleanup
-        - DirtyBytesArrayToStorage
-        - DataLocationChangeInInternalOverride
-        - NestedCalldataArrayAbiReencodingSizeValidation
-        - SignedImmutables
-        - ABIDecodeTwoDimensionalArrayMemory
-        - KeccakCaching
-        - EmptyByteArrayCopy
-        - DynamicArrayCleanup.
-It is used by:
-        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/introspection/ERC165.sol#3)
-        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/introspection/IERC165.sol#3)
-        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/math/SafeMath.sol#3)
-        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/token/ERC721/ERC721.sol#3)
-        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/token/ERC721/IERC721.sol#3)
-        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/token/ERC721/IERC721Enumerable.sol#3)
-        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/token/ERC721/IERC721Metadata.sol#3)
-        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/token/ERC721/IERC721Receiver.sol#3)
-        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#3)
-        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/utils/EnumerableMap.sol#3)
-        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/utils/EnumerableSet.sol#3)
-        - ^0.7.0 (lib/openzeppelin-solc-0.7/contracts/utils/Strings.sol#3)
-Version constraint >=0.5.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
-        - DirtyBytesArrayToStorage
-        - ABIDecodeTwoDimensionalArrayMemory
-        - KeccakCaching
-        - EmptyByteArrayCopy
-        - DynamicArrayCleanup
-        - ImplicitConstructorCallvalueCheck
-        - TupleAssignmentMultiStackSlotComponents
-        - MemoryArrayCreationOverflow
-        - privateCanBeOverridden
-        - SignedArrayStorageCopy
-        - ABIEncoderV2StorageArrayWithMultiSlotElement
-        - DynamicConstructorArgumentsClippedABIV2
-        - UninitializedFunctionPointerInConstructor
-        - IncorrectEventSignatureInLibraries
-        - ABIEncoderV2PackedStorage.
-It is used by:
-        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/IUniswapV3Pool.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/pool/IUniswapV3PoolActions.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/pool/IUniswapV3PoolDerivedState.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/pool/IUniswapV3PoolEvents.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/pool/IUniswapV3PoolImmutables.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/pool/IUniswapV3PoolOwnerActions.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-core/contracts/interfaces/pool/IUniswapV3PoolState.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-core/contracts/libraries/LiquidityMath.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-core/contracts/libraries/SafeCast.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-core/contracts/libraries/Tick.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-core/contracts/libraries/TickMath.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-periphery/contracts/interfaces/IPeripheryImmutableState.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-periphery/contracts/libraries/LiquidityAmounts.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-periphery/contracts/libraries/PoolAddress.sol#2)
-        - >=0.5.0 (lib/uniswap-v3-periphery/contracts/libraries/PositionKey.sol#2)
-Version constraint >=0.4.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
-        - DirtyBytesArrayToStorage
-        - KeccakCaching
-        - EmptyByteArrayCopy
-        - DynamicArrayCleanup
-        - TupleAssignmentMultiStackSlotComponents
-        - MemoryArrayCreationOverflow
-        - privateCanBeOverridden
-        - IncorrectEventSignatureInLibraries_0.4.x
-        - ExpExponentCleanup
-        - NestedArrayFunctionCallDecoder
-        - ZeroFunctionSelector
-        - DelegateCallReturnValue
-        - ECRecoverMalformedInput
-        - SkipEmptyStringLiteral
-        - ConstantOptimizerSubtraction
-        - IdentityPrecompileReturnIgnored
-        - HighOrderByteCleanStorage
-        - OptimizerStaleKnowledgeAboutSHA3
-        - LibrariesNotCallableFromPayableFunctions.
-It is used by:
-        - >=0.4.0 (lib/uniswap-v3-core/contracts/libraries/FixedPoint128.sol#2)
-        - >=0.4.0 (lib/uniswap-v3-core/contracts/libraries/FixedPoint96.sol#2)
-        - >=0.4.0 (lib/uniswap-v3-core/contracts/libraries/FullMath.sol#2)
-Version constraint >=0.7.0 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
-        - FullInlinerNonExpressionSplitArgumentEvaluationOrder
-        - MissingSideEffectsOnSelectorAccess
-        - AbiReencodingHeadOverflowWithStaticArrayCleanup
-        - DirtyBytesArrayToStorage
-        - DataLocationChangeInInternalOverride
-        - NestedCalldataArrayAbiReencodingSizeValidation
-        - SignedImmutables
-        - ABIDecodeTwoDimensionalArrayMemory
-        - KeccakCaching
-        - EmptyByteArrayCopy
-        - DynamicArrayCleanup.
-It is used by:
-        - >=0.7.0 (lib/uniswap-v3-core/contracts/libraries/LowGasSafeMath.sol#2)
-Version constraint >=0.7.5 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
-        - FullInlinerNonExpressionSplitArgumentEvaluationOrder
-        - MissingSideEffectsOnSelectorAccess
-        - AbiReencodingHeadOverflowWithStaticArrayCleanup
-        - DirtyBytesArrayToStorage
-        - DataLocationChangeInInternalOverride
-        - NestedCalldataArrayAbiReencodingSizeValidation
-        - SignedImmutables
-        - ABIDecodeTwoDimensionalArrayMemory
-        - KeccakCaching.
-It is used by:
-        - >=0.7.5 (lib/uniswap-v3-periphery/contracts/interfaces/IERC721Permit.sol#2)
-        - >=0.7.5 (lib/uniswap-v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol#2)
-        - >=0.7.5 (lib/uniswap-v3-periphery/contracts/interfaces/IPeripheryPayments.sol#2)
-        - >=0.7.5 (lib/uniswap-v3-periphery/contracts/interfaces/IPoolInitializer.sol#2)
-Version constraint >=0.6.8<0.8.0 is too complex.
-It is used by:
-        - >=0.6.8<0.8.0 (lib/uniswap-v3-periphery/contracts/libraries/PositionValue.sol#2)
-solc-0.7.6 is an outdated solc version. Use a more recent version (at least 0.8.0), if possible.
+        - >=0.8.0<0.9.0 (contracts/external-interfaces/IGMXV2ExchangeRouter.sol#12)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
-INFO:Detectors:
+
 Version constraint >=0.6.0<0.9.0 is too complex.
 It is used by:
         - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveAToken.sol#12)
@@ -568,9 +758,6 @@ It is used by:
         - >=0.6.0<0.9.0 (contracts/utils/0.8.19/deprecated/beacon-proxy/IBeaconProxyFactory.sol#16)
         - >=0.6.0<0.9.0 (contracts/utils/0.8.19/dispatcher-owned-beacon/IDispatcherOwnedBeacon.sol#10)
         - >=0.6.0<0.9.0 (contracts/utils/0.8.19/dispatcher-owned-beacon/IDispatcherOwnedBeaconFactory.sol#10)
-Version constraint >=0.8.0<0.9.0 is too complex.
-It is used by:
-        - >=0.8.0<0.9.0 (contracts/external-interfaces/IGMXV2ExchangeRouter.sol#12)
 Version constraint 0.8.19 contains known severe issues (https://solidity.readthedocs.io/en/latest/bugs.html)
         - VerbatimInvalidDeduplication
         - FullInlinerNonExpressionSplitArgumentEvaluationOrder
@@ -790,195 +977,27 @@ Version constraint ^0.8.1 contains known severe issues (https://solidity.readthe
 It is used by:
         - ^0.8.1 (lib/openzeppelin-solc-0.8/contracts/utils/Address.sol#4)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
-INFO:Detectors:
-Version constraint >=0.6.0<0.9.0 is too complex.
-It is used by:
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveAToken.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV2IncentivesController.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV2LendingPool.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV2LendingPoolAddressProvider.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV2ProtocolDataProvider.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV3FlashLoanReceiver.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV3Pool.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV3PoolAddressProvider.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV3ProtocolDataProvider.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAaveV3RewardsController.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IAliceOrderManager.sol#11)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IBalancerV2LiquidityGauge.sol#10)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IBalancerV2PoolFactory.sol#10)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IBalancerV2StablePool.sol#10)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IBalancerV2Vault.sol#10)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IBalancerV2WeightedPool.sol#10)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IChainlinkAggregator.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICompoundComptroller.sol#10)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICompoundV2CERC20.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICompoundV2CEther.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICompoundV3Comet.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICompoundV3CometRewards.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICompoundV3Configurator.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IConvexBaseRewardPool.sol#10)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IConvexCvxLockerV2.sol#10)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IConvexVlCvxExtraRewardDistribution.sol#10)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveAddressProvider.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveLiquidityGaugeV2.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveLiquidityPool.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveMinter.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurvePoolOwner.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveRegistryMain.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveRegistryMetapoolFactory.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ICurveV2TwocryptoPool.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IDivaEther.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IERC20.sol#2)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IERC20Burnable.sol#2)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IERC4626.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IEtherFiWrappedEth.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2ChainlinkPriceFeedProvider.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2DataStore.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2Event.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2Market.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2Order.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2OrderHandler.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2Position.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2Price.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2Reader.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGMXV2RoleStore.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGsnForwarder.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGsnPaymaster.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGsnRelayHub.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IGsnTypes.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IKilnStakingContract.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ILidoSteth.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ILidoWithdrawalQueue.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ILiquityBorrowerOperations.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ILiquityColSurplusPool.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ILiquityTroveManager.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMapleV2Globals.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMapleV2Pool.sol#13)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMapleV2PoolManager.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMapleV2ProxyFactory.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMapleV2WithdrawalManager.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMerklDistributor.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMorphoBlue.sol#11)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IMorphoBlueFlashLoanCallback.sol#11)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IOneInchV5AggregationRouter.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IParaSwapV5AugustusSwapper.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IParaSwapV6AugustusSwapper.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IPendleV2Market.sol#15)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IPendleV2PrincipalToken.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IPendleV2PyYtLpOracle.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IPendleV2Router.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IPendleV2StandardizedYield.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ISmarDexOracleMiddleware.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ISmarDexUsdnProtocol.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ISnapshotDelegateRegistry.sol#10)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ISolvBTCYieldToken.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IStaderOracle.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IStaderStakePoolsManager.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IStaderUserWithdrawalManager.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IStakeWiseV3EthVault.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IStakeWiseV3VaultsRegistry.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ISwellSweth.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITermFinanceV1Auction.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITermFinanceV1AuctionOfferLocker.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITermFinanceV1Controller.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITermFinanceV1RepoCollateralManager.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITermFinanceV1RepoServicer.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITermFinanceV1RepoToken.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/ITheGraphStaking.sol#10)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IUniswapV2Factory.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IUniswapV2Pair.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IUniswapV2Router2.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IUniswapV3SwapRouter.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IVotiumMultiMerkleStash.sol#10)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IWETH.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IYearnVaultV2.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IYearnVaultV2Registry.sol#12)
-        - >=0.6.0<0.9.0 (contracts/external-interfaces/IZeroExV4.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/address-list-registry/IAddressListRegistry.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/address-list-registry/address-list-owners/utils/IAddOnlyAddressListOwner.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/arbitrary-value-oracles/IArbitraryValueOracle.sol#10)
-        - >=0.6.0<0.9.0 (contracts/persistent/dispatcher/IDispatcher.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/dispatcher/IMigrationHookHandler.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/external-positions/IExternalPositionFactory.sol#10)
-        - >=0.6.0<0.9.0 (contracts/persistent/external-positions/IExternalPositionLibCore.sol#10)
-        - >=0.6.0<0.9.0 (contracts/persistent/external-positions/IExternalPositionProxy.sol#10)
-        - >=0.6.0<0.9.0 (contracts/persistent/global-config/interfaces/IGlobalConfig1.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/global-config/interfaces/IGlobalConfig2.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/global-config/interfaces/IGlobalConfigLibComptrollerV4.sol#10)
-        - >=0.6.0<0.9.0 (contracts/persistent/off-chain/fund-value-calculator/IFundValueCalculator.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/off-chain/helper-data-reader/IHelperDataReader.sol#3)
-        - >=0.6.0<0.9.0 (contracts/persistent/protocol-fee-reserve/interfaces/IProtocolFeeReserve1.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/shares-wrappers/gated-redemption-queue/IGatedRedemptionQueueSharesWrapper.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/single-asset-deposit-queue/ISingleAssetDepositQueue.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/single-asset-redemption-queue/ISingleAssetRedemptionQueue.sol#14)
-        - >=0.6.0<0.9.0 (contracts/persistent/smart-accounts/aave-v3-flash-loan-asset-manager/IAaveV3FlashLoanAssetManager.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/smart-accounts/morpho-blue-flash-loan-asset-manager/IMorphoBlueFlashLoanAssetManager.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/smart-accounts/share-price-throttled-asset-manager/ISharePriceThrottledAssetManagerLib.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/smart-accounts/utils/interfaces/IMultiCallAccountMixin.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/uint-list-registry/IUintListRegistry.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/vault/interfaces/IExternalPositionVault.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/vault/interfaces/IFreelyTransferableSharesVault.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/vault/interfaces/IMigratableVault.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/vault/interfaces/IVaultCore.sol#12)
-        - >=0.6.0<0.9.0 (contracts/persistent/vault/utils/IProxiableVaultLib.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/core/fund/comptroller/IComptroller.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/core/fund/vault/IVault.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/core/fund-deployer/IFundDeployer.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/IExtension.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/IExternalPosition.sol#10)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/IExternalPositionManager.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/IExternalPositionParser.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/aave-v2-debt/IAaveDebtPosition.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/arbitrary-loan/IArbitraryLoanPosition.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/arbitrary-loan/modules/IArbitraryLoanAccountingModule.sol#10)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/compound-debt/ICompoundDebtPosition.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/convex-voting/IConvexVotingPosition.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/kiln-staking/IKilnStakingPosition.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/liquity-debt/ILiquityDebtPosition.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/maple-liquidity/IMapleLiquidityPosition.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/morpho-blue/IMorphoBluePosition.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/pendle-v2/IPendleV2Position.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/pendle-v2/markets-registry/IPendleV2MarketRegistry.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/stakewise-v3-staking/IStakeWiseV3StakingPosition.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/term-finance-v1-lending/ITermFinanceV1LendingPosition.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/the-graph-delegation/ITheGraphDelegationPosition.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/IUniswapV3LiquidityPosition.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/fee-manager/IFee.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/fee-manager/IFeeManager.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/fee-manager/fees/interfaces/IManagementFee.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/fee-manager/fees/interfaces/IPerformanceFee.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/fee-manager/fees/utils/interfaces/IExitRateFeeBase.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/IIntegrationAdapter.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/IIntegrationManager.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/adapters/interfaces/IParaSwapV5Adapter.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/adapters/interfaces/IParaSwapV6Adapter.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/adapters/interfaces/IPendleV2Adapter.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/adapters/interfaces/ITransferAssetsAdapter.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/adapters/interfaces/IZeroExV4Adapter.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/utils/IntegrationSelectors.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/integration-manager/integrations/utils/interfaces/ICurveLiquidityAdapterBase.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/policy-manager/IPolicy.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/policy-manager/IPolicyManager.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/policy-manager/policies/interfaces/ICumulativeSlippageTolerancePolicy.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/policy-manager/policies/interfaces/IMinMaxInvestmentPolicy.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/extensions/policy-manager/policies/utils/interfaces/INoDepegPolicyBase.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/infrastructure/gas-relayer/IGasRelayPaymaster.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/infrastructure/gas-relayer/IGasRelayPaymasterDepositor.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/derivatives/IAggregatedDerivativePriceFeedMixin.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/derivatives/IDerivativePriceFeed.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/derivatives/feeds/interfaces/IBalancerV2StablePoolPriceFeed.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/derivatives/feeds/interfaces/ICurvePriceFeed.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/derivatives/feeds/interfaces/IUniswapV2PoolPriceFeed.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/infrastructure/price-feeds/primitives/IChainlinkPriceFeedMixin.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/infrastructure/protocol-fees/IProtocolFeeTracker.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/infrastructure/value-interpreter/IValueInterpreter.sol#12)
-        - >=0.6.0<0.9.0 (contracts/release/off-chain/interfaces/IHelperDataReader.sol#12)
-        - >=0.6.0<0.9.0 (contracts/utils/0.8.19/deprecated/beacon-proxy/IBeacon.sol#14)
-        - >=0.6.0<0.9.0 (contracts/utils/0.8.19/deprecated/beacon-proxy/IBeaconProxyFactory.sol#16)
-        - >=0.6.0<0.9.0 (contracts/utils/0.8.19/dispatcher-owned-beacon/IDispatcherOwnedBeacon.sol#10)
-        - >=0.6.0<0.9.0 (contracts/utils/0.8.19/dispatcher-owned-beacon/IDispatcherOwnedBeaconFactory.sol#10)
-Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#incorrect-versions-of-solidity
-INFO:Detectors:
+
+Low level call in UniswapV3LiquidityPositionLib.__getLiquidityForNFT(uint256) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#169-179):
+        - (success,returnData) = getNonFungibleTokenManager().staticcall(abi.encodeWithSelector(INonfungiblePositionManager.positions.selector,_nftId)) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#170-172)
+Low level call in Address.sendValue(address,uint256) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#53-59):
+        - (success,None) = recipient.call{value: amount}() (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#57)
+Low level call in Address.functionCallWithValue(address,bytes,uint256,string) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#114-121):
+        - (success,returndata) = target.call{value: value}(data) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#119)
+Low level call in Address.functionStaticCall(address,bytes,string) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#139-145):
+        - (success,returndata) = target.staticcall(data) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#143)
+Low level call in Address.functionDelegateCall(address,bytes,string) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#163-169):
+        - (success,returndata) = target.delegatecall(data) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#167)
+Low level call in Address.sendValue(address,uint256) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#53-59):
+        - (success,None) = recipient.call{value: amount}() (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#57)
+Low level call in Address.functionCallWithValue(address,bytes,uint256,string) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#114-121):
+        - (success,returndata) = target.call{value: value}(data) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#119)
+Low level call in Address.functionStaticCall(address,bytes,string) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#139-145):
+        - (success,returndata) = target.staticcall(data) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#143)
+Low level call in Address.functionDelegateCall(address,bytes,string) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#163-169):
+        - (success,returndata) = target.delegatecall(data) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#167)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#low-level-calls
+
 Low level call in Dispatcher.__invokeMigrationInCancelHook(address,address,address,address,address,bool) (contracts/persistent/dispatcher/Dispatcher.sol#392-416):
         - (success,returnData) = _nextFundDeployer.call(abi.encodeWithSelector(IMigrationHookHandler.invokeMigrationInCancelHook.selector,_vaultProxy,_prevFundDeployer,_nextVaultAccessor,_nextVaultLib)) (contracts/persistent/dispatcher/Dispatcher.sol#400-408)
 Low level call in Dispatcher.__invokeMigrationOutHook(IMigrationHookHandler.MigrationOutHook,address,address,address,address,address,bool) (contracts/persistent/dispatcher/Dispatcher.sol#420-446):
@@ -1007,28 +1026,8 @@ Low level call in NonUpgradableProxy.constructor(bytes,address) (contracts/utils
         - (success,returnData) = _contractLogic.delegatecall(_constructData) (contracts/utils/0.6.12/NonUpgradableProxy.sol#31)
 Low level call in BeaconProxy.constructor(bytes,address) (contracts/utils/0.6.12/beacon-proxy/BeaconProxy.sol#22-27):
         - (success,returnData) = IBeacon(_beacon).getCanonicalLib().delegatecall(_constructData) (contracts/utils/0.6.12/beacon-proxy/BeaconProxy.sol#25)
-Low level call in Address.sendValue(address,uint256) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#53-59):
-        - (success,None) = recipient.call{value: amount}() (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#57)
-Low level call in Address.functionCallWithValue(address,bytes,uint256,string) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#114-121):
-        - (success,returndata) = target.call{value: value}(data) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#119)
-Low level call in Address.functionStaticCall(address,bytes,string) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#139-145):
-        - (success,returndata) = target.staticcall(data) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#143)
-Low level call in Address.functionDelegateCall(address,bytes,string) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#163-169):
-        - (success,returndata) = target.delegatecall(data) (lib/openzeppelin-solc-0.6/contracts/utils/Address.sol#167)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#low-level-calls
-INFO:Detectors:
-Low level call in UniswapV3LiquidityPositionLib.__getLiquidityForNFT(uint256) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#169-179):
-        - (success,returnData) = getNonFungibleTokenManager().staticcall(abi.encodeWithSelector(INonfungiblePositionManager.positions.selector,_nftId)) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#170-172)
-Low level call in Address.sendValue(address,uint256) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#53-59):
-        - (success,None) = recipient.call{value: amount}() (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#57)
-Low level call in Address.functionCallWithValue(address,bytes,uint256,string) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#114-121):
-        - (success,returndata) = target.call{value: value}(data) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#119)
-Low level call in Address.functionStaticCall(address,bytes,string) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#139-145):
-        - (success,returndata) = target.staticcall(data) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#143)
-Low level call in Address.functionDelegateCall(address,bytes,string) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#163-169):
-        - (success,returndata) = target.delegatecall(data) (lib/openzeppelin-solc-0.7/contracts/utils/Address.sol#167)
-Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#low-level-calls
-INFO:Detectors:
+
 Low level call in VaultLib.callOnContract(address,bytes) (contracts/release/core/fund/vault/VaultLib.sol#297-308):
         - (success,returnData_) = _contract.call(_callData) (contracts/release/core/fund/vault/VaultLib.sol#304)
 Low level call in IntegrationManager.__executeCoI(address,address,bytes4,bytes,bytes) (contracts/release/extensions/integration-manager/IntegrationManager.sol#247-257):
@@ -1048,14 +1047,86 @@ Low level call in Address.functionStaticCall(address,bytes,string) (lib/openzepp
 Low level call in Address.functionDelegateCall(address,bytes,string) (lib/openzeppelin-solc-0.8/contracts/utils/Address.sol#180-187):
         - (success,returndata) = target.delegatecall(data) (lib/openzeppelin-solc-0.8/contracts/utils/Address.sol#185)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#low-level-calls
-INFO:Detectors:
+
 FundValueCalculatorRouter (contracts/persistent/off-chain/fund-value-calculator/FundValueCalculatorRouter.sol#23-212) should inherit from IFundValueCalculator (contracts/persistent/off-chain/fund-value-calculator/IFundValueCalculator.sol#16-48)
 UsdEthSimulatedAggregator (contracts/release/infrastructure/price-feeds/primitives/UsdEthSimulatedAggregator.sol#19-63) should inherit from IChainlinkAggregator (contracts/external-interfaces/IChainlinkAggregator.sol#16-20)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#missing-inheritance
-INFO:Detectors:
+
 NonStandardPrecisionSimulatedAggregator (contracts/release/infrastructure/price-feeds/primitives/NonStandardPrecisionSimulatedAggregator.sol#21-108) should inherit from IChainlinkAggregator (contracts/external-interfaces/IChainlinkAggregator.sol#16-20)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#missing-inheritance
-INFO:Detectors:
+
+Function UniswapV3LiquidityPositionDataDecoder.__decodeAddLiquidityActionArgs(bytes) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#17-29) is not in mixedCase
+Parameter UniswapV3LiquidityPositionDataDecoder.__decodeAddLiquidityActionArgs(bytes)._actionArgs (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#17) is not in mixedCase
+Function UniswapV3LiquidityPositionDataDecoder.__decodeCollectActionArgs(bytes) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#32-34) is not in mixedCase
+Parameter UniswapV3LiquidityPositionDataDecoder.__decodeCollectActionArgs(bytes)._actionArgs (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#32) is not in mixedCase
+Function UniswapV3LiquidityPositionDataDecoder.__decodeMintActionArgs(bytes) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#37-53) is not in mixedCase
+Parameter UniswapV3LiquidityPositionDataDecoder.__decodeMintActionArgs(bytes)._actionArgs (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#37) is not in mixedCase
+Function UniswapV3LiquidityPositionDataDecoder.__decodePurgeActionArgs(bytes) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#56-62) is not in mixedCase
+Parameter UniswapV3LiquidityPositionDataDecoder.__decodePurgeActionArgs(bytes)._actionArgs (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#56) is not in mixedCase
+Function UniswapV3LiquidityPositionDataDecoder.__decodeRemoveLiquidityActionArgs(bytes) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#65-71) is not in mixedCase
+Parameter UniswapV3LiquidityPositionDataDecoder.__decodeRemoveLiquidityActionArgs(bytes)._actionArgs (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#65) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.receiveCallFromVault(bytes)._actionData (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#53) is not in mixedCase
+Function UniswapV3LiquidityPositionLib.__addLiquidity(INonfungiblePositionManager.IncreaseLiquidityParams) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#126-141) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__addLiquidity(INonfungiblePositionManager.IncreaseLiquidityParams)._params (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#126) is not in mixedCase
+Function UniswapV3LiquidityPositionLib.__approveAssetMaxAsNeeded(address,address,uint256) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#144-152) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__approveAssetMaxAsNeeded(address,address,uint256)._asset (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#144) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__approveAssetMaxAsNeeded(address,address,uint256)._target (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#144) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__approveAssetMaxAsNeeded(address,address,uint256)._neededAmount (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#144) is not in mixedCase
+Function UniswapV3LiquidityPositionLib.__collect(uint256) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#155-164) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__collect(uint256)._nftId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#155) is not in mixedCase
+Function UniswapV3LiquidityPositionLib.__getLiquidityForNFT(uint256) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#169-179) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__getLiquidityForNFT(uint256)._nftId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#169) is not in mixedCase
+Function UniswapV3LiquidityPositionLib.__mint(INonfungiblePositionManager.MintParams) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#182-206) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__mint(INonfungiblePositionManager.MintParams)._params (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#182) is not in mixedCase
+Function UniswapV3LiquidityPositionLib.__purge(uint256,uint128,uint256,uint256) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#214-255) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__purge(uint256,uint128,uint256,uint256)._nftId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#214) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__purge(uint256,uint128,uint256,uint256)._liquidity (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#214) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__purge(uint256,uint128,uint256,uint256)._amount0Min (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#214) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__purge(uint256,uint128,uint256,uint256)._amount1Min (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#214) is not in mixedCase
+Function UniswapV3LiquidityPositionLib.__removeLiquidity(INonfungiblePositionManager.DecreaseLiquidityParams) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#258-262) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__removeLiquidity(INonfungiblePositionManager.DecreaseLiquidityParams)._params (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#258) is not in mixedCase
+Function UniswapV3LiquidityPositionLib.__aggregateAssetAmounts(address[],uint256[]) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#338-383) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__aggregateAssetAmounts(address[],uint256[])._rawAssets (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#338) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__aggregateAssetAmounts(address[],uint256[])._rawAmounts (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#338) is not in mixedCase
+Function UniswapV3LiquidityPositionLib.__uniswapSqrt(uint256) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#387-401) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.__uniswapSqrt(uint256)._y (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#387) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.getPairForNft(uint256)._nftId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#423) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.getToken0ForNft(uint256)._nftId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#430) is not in mixedCase
+Parameter UniswapV3LiquidityPositionLib.getToken1ForNft(uint256)._nftId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#437) is not in mixedCase
+Variable UniswapV3LiquidityPositionLib.NON_FUNGIBLE_TOKEN_MANAGER (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#36) is not in mixedCase
+Variable UniswapV3LiquidityPositionLib.VALUE_INTERPRETER (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#37) is not in mixedCase
+Parameter UniswapV3LiquidityPositionParser.parseAssetsForAction(address,uint256,bytes)._externalPosition (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#39) is not in mixedCase
+Parameter UniswapV3LiquidityPositionParser.parseAssetsForAction(address,uint256,bytes)._actionId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#39) is not in mixedCase
+Parameter UniswapV3LiquidityPositionParser.parseAssetsForAction(address,uint256,bytes)._encodedActionArgs (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#39) is not in mixedCase
+Function UniswapV3LiquidityPositionParser.__poolIsSupportable(address,address) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#105-120) is not in mixedCase
+Parameter UniswapV3LiquidityPositionParser.__poolIsSupportable(address,address)._tokenA (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#105) is not in mixedCase
+Parameter UniswapV3LiquidityPositionParser.__poolIsSupportable(address,address)._tokenB (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#105) is not in mixedCase
+Variable UniswapV3LiquidityPositionParser.UNISWAP_V3_NON_FUNGIBLE_POSITION_MANAGER (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#24) is not in mixedCase
+Variable UniswapV3LiquidityPositionParser.VALUE_INTERPRETER (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#25) is not in mixedCase
+Parameter WrappedSafeERC20.safeApprove(IERC20,address,uint256)._token (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#23) is not in mixedCase
+Parameter WrappedSafeERC20.safeApprove(IERC20,address,uint256)._spender (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#23) is not in mixedCase
+Parameter WrappedSafeERC20.safeApprove(IERC20,address,uint256)._value (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#23) is not in mixedCase
+Parameter WrappedSafeERC20.safeDecreaseAllowance(IERC20,address,uint256)._token (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#27) is not in mixedCase
+Parameter WrappedSafeERC20.safeDecreaseAllowance(IERC20,address,uint256)._spender (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#27) is not in mixedCase
+Parameter WrappedSafeERC20.safeDecreaseAllowance(IERC20,address,uint256)._value (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#27) is not in mixedCase
+Parameter WrappedSafeERC20.safeIncreaseAllowance(IERC20,address,uint256)._token (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#31) is not in mixedCase
+Parameter WrappedSafeERC20.safeIncreaseAllowance(IERC20,address,uint256)._spender (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#31) is not in mixedCase
+Parameter WrappedSafeERC20.safeIncreaseAllowance(IERC20,address,uint256)._value (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#31) is not in mixedCase
+Parameter WrappedSafeERC20.safeTransfer(IERC20,address,uint256)._token (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#35) is not in mixedCase
+Parameter WrappedSafeERC20.safeTransfer(IERC20,address,uint256)._to (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#35) is not in mixedCase
+Parameter WrappedSafeERC20.safeTransfer(IERC20,address,uint256)._value (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#35) is not in mixedCase
+Parameter WrappedSafeERC20.safeTransferFrom(IERC20,address,address,uint256)._token (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#39) is not in mixedCase
+Parameter WrappedSafeERC20.safeTransferFrom(IERC20,address,address,uint256)._from (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#39) is not in mixedCase
+Parameter WrappedSafeERC20.safeTransferFrom(IERC20,address,address,uint256)._to (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#39) is not in mixedCase
+Parameter WrappedSafeERC20.safeTransferFrom(IERC20,address,address,uint256)._value (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#39) is not in mixedCase
+Function WrappedSafeERC20.__castToken(IERC20) (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#43-45) is not in mixedCase
+Parameter WrappedSafeERC20.__castToken(IERC20)._token (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#43) is not in mixedCase
+Parameter ERC721.safeTransferFrom(address,address,uint256,bytes)._data (lib/openzeppelin-solc-0.7/contracts/token/ERC721/ERC721.sol#245) is not in mixedCase
+Function IERC721Permit.PERMIT_TYPEHASH() (lib/uniswap-v3-periphery/contracts/interfaces/IERC721Permit.sol#11) is not in mixedCase
+Function IERC721Permit.DOMAIN_SEPARATOR() (lib/uniswap-v3-periphery/contracts/interfaces/IERC721Permit.sol#15) is not in mixedCase
+Function IPeripheryImmutableState.WETH9() (lib/uniswap-v3-periphery/contracts/interfaces/IPeripheryImmutableState.sol#11) is not in mixedCase
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#conformance-to-solidity-naming-conventions
+
 Function IAaveAToken.UNDERLYING_ASSET_ADDRESS() (contracts/external-interfaces/IAaveAToken.sol#18) is not in mixedCase
 Function IBalancerV2LiquidityGauge.lp_token() (contracts/external-interfaces/IBalancerV2LiquidityGauge.sol#16) is not in mixedCase
 Function ICurveAddressProvider.get_address(uint256) (contracts/external-interfaces/ICurveAddressProvider.sol#17) is not in mixedCase
@@ -2785,85 +2856,15 @@ Parameter BeaconProxyFactory.deployProxy(bytes)._constructData (contracts/utils/
 Parameter BeaconProxyFactory.setCanonicalLib(address)._nextCanonicalLib (contracts/utils/0.6.12/beacon-proxy/BeaconProxyFactory.sol#54) is not in mixedCase
 Function BeaconProxyFactory.__setCanonicalLib(address) (contracts/utils/0.6.12/beacon-proxy/BeaconProxyFactory.sol#61-65) is not in mixedCase
 Parameter BeaconProxyFactory.__setCanonicalLib(address)._nextCanonicalLib (contracts/utils/0.6.12/beacon-proxy/BeaconProxyFactory.sol#61) is not in mixedCase
-Parameter WrappedSafeERC20.safeApprove(IERC20,address,uint256)._token (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#23) is not in mixedCase
-Parameter WrappedSafeERC20.safeApprove(IERC20,address,uint256)._spender (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#23) is not in mixedCase
-Parameter WrappedSafeERC20.safeApprove(IERC20,address,uint256)._value (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#23) is not in mixedCase
-Parameter WrappedSafeERC20.safeDecreaseAllowance(IERC20,address,uint256)._token (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#27) is not in mixedCase
-Parameter WrappedSafeERC20.safeDecreaseAllowance(IERC20,address,uint256)._spender (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#27) is not in mixedCase
-Parameter WrappedSafeERC20.safeDecreaseAllowance(IERC20,address,uint256)._value (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#27) is not in mixedCase
-Parameter WrappedSafeERC20.safeIncreaseAllowance(IERC20,address,uint256)._token (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#31) is not in mixedCase
-Parameter WrappedSafeERC20.safeIncreaseAllowance(IERC20,address,uint256)._spender (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#31) is not in mixedCase
-Parameter WrappedSafeERC20.safeIncreaseAllowance(IERC20,address,uint256)._value (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#31) is not in mixedCase
-Parameter WrappedSafeERC20.safeTransfer(IERC20,address,uint256)._token (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#35) is not in mixedCase
-Parameter WrappedSafeERC20.safeTransfer(IERC20,address,uint256)._to (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#35) is not in mixedCase
-Parameter WrappedSafeERC20.safeTransfer(IERC20,address,uint256)._value (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#35) is not in mixedCase
-Parameter WrappedSafeERC20.safeTransferFrom(IERC20,address,address,uint256)._token (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#39) is not in mixedCase
-Parameter WrappedSafeERC20.safeTransferFrom(IERC20,address,address,uint256)._from (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#39) is not in mixedCase
-Parameter WrappedSafeERC20.safeTransferFrom(IERC20,address,address,uint256)._to (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#39) is not in mixedCase
-Parameter WrappedSafeERC20.safeTransferFrom(IERC20,address,address,uint256)._value (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#39) is not in mixedCase
-Function WrappedSafeERC20.__castToken(IERC20) (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#43-45) is not in mixedCase
-Parameter WrappedSafeERC20.__castToken(IERC20)._token (contracts/utils/0.6.12/open-zeppelin/WrappedSafeERC20.sol#43) is not in mixedCase
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#conformance-to-solidity-naming-conventions
-INFO:Detectors:
-Function UniswapV3LiquidityPositionDataDecoder.__decodeAddLiquidityActionArgs(bytes) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#17-29) is not in mixedCase
-Parameter UniswapV3LiquidityPositionDataDecoder.__decodeAddLiquidityActionArgs(bytes)._actionArgs (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#17) is not in mixedCase
-Function UniswapV3LiquidityPositionDataDecoder.__decodeCollectActionArgs(bytes) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#32-34) is not in mixedCase
-Parameter UniswapV3LiquidityPositionDataDecoder.__decodeCollectActionArgs(bytes)._actionArgs (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#32) is not in mixedCase
-Function UniswapV3LiquidityPositionDataDecoder.__decodeMintActionArgs(bytes) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#37-53) is not in mixedCase
-Parameter UniswapV3LiquidityPositionDataDecoder.__decodeMintActionArgs(bytes)._actionArgs (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#37) is not in mixedCase
-Function UniswapV3LiquidityPositionDataDecoder.__decodePurgeActionArgs(bytes) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#56-62) is not in mixedCase
-Parameter UniswapV3LiquidityPositionDataDecoder.__decodePurgeActionArgs(bytes)._actionArgs (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#56) is not in mixedCase
-Function UniswapV3LiquidityPositionDataDecoder.__decodeRemoveLiquidityActionArgs(bytes) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#65-71) is not in mixedCase
-Parameter UniswapV3LiquidityPositionDataDecoder.__decodeRemoveLiquidityActionArgs(bytes)._actionArgs (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionDataDecoder.sol#65) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.receiveCallFromVault(bytes)._actionData (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#53) is not in mixedCase
-Function UniswapV3LiquidityPositionLib.__addLiquidity(INonfungiblePositionManager.IncreaseLiquidityParams) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#126-141) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__addLiquidity(INonfungiblePositionManager.IncreaseLiquidityParams)._params (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#126) is not in mixedCase
-Function UniswapV3LiquidityPositionLib.__approveAssetMaxAsNeeded(address,address,uint256) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#144-152) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__approveAssetMaxAsNeeded(address,address,uint256)._asset (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#144) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__approveAssetMaxAsNeeded(address,address,uint256)._target (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#144) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__approveAssetMaxAsNeeded(address,address,uint256)._neededAmount (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#144) is not in mixedCase
-Function UniswapV3LiquidityPositionLib.__collect(uint256) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#155-164) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__collect(uint256)._nftId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#155) is not in mixedCase
-Function UniswapV3LiquidityPositionLib.__getLiquidityForNFT(uint256) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#169-179) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__getLiquidityForNFT(uint256)._nftId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#169) is not in mixedCase
-Function UniswapV3LiquidityPositionLib.__mint(INonfungiblePositionManager.MintParams) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#182-206) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__mint(INonfungiblePositionManager.MintParams)._params (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#182) is not in mixedCase
-Function UniswapV3LiquidityPositionLib.__purge(uint256,uint128,uint256,uint256) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#214-255) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__purge(uint256,uint128,uint256,uint256)._nftId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#214) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__purge(uint256,uint128,uint256,uint256)._liquidity (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#214) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__purge(uint256,uint128,uint256,uint256)._amount0Min (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#214) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__purge(uint256,uint128,uint256,uint256)._amount1Min (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#214) is not in mixedCase
-Function UniswapV3LiquidityPositionLib.__removeLiquidity(INonfungiblePositionManager.DecreaseLiquidityParams) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#258-262) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__removeLiquidity(INonfungiblePositionManager.DecreaseLiquidityParams)._params (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#258) is not in mixedCase
-Function UniswapV3LiquidityPositionLib.__aggregateAssetAmounts(address[],uint256[]) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#338-383) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__aggregateAssetAmounts(address[],uint256[])._rawAssets (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#338) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__aggregateAssetAmounts(address[],uint256[])._rawAmounts (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#338) is not in mixedCase
-Function UniswapV3LiquidityPositionLib.__uniswapSqrt(uint256) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#387-401) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.__uniswapSqrt(uint256)._y (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#387) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.getPairForNft(uint256)._nftId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#423) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.getToken0ForNft(uint256)._nftId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#430) is not in mixedCase
-Parameter UniswapV3LiquidityPositionLib.getToken1ForNft(uint256)._nftId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#437) is not in mixedCase
-Variable UniswapV3LiquidityPositionLib.NON_FUNGIBLE_TOKEN_MANAGER (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#36) is not in mixedCase
-Variable UniswapV3LiquidityPositionLib.VALUE_INTERPRETER (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionLib.sol#37) is not in mixedCase
-Parameter UniswapV3LiquidityPositionParser.parseAssetsForAction(address,uint256,bytes)._externalPosition (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#39) is not in mixedCase
-Parameter UniswapV3LiquidityPositionParser.parseAssetsForAction(address,uint256,bytes)._actionId (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#39) is not in mixedCase
-Parameter UniswapV3LiquidityPositionParser.parseAssetsForAction(address,uint256,bytes)._encodedActionArgs (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#39) is not in mixedCase
-Function UniswapV3LiquidityPositionParser.__poolIsSupportable(address,address) (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#105-120) is not in mixedCase
-Parameter UniswapV3LiquidityPositionParser.__poolIsSupportable(address,address)._tokenA (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#105) is not in mixedCase
-Parameter UniswapV3LiquidityPositionParser.__poolIsSupportable(address,address)._tokenB (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#105) is not in mixedCase
-Variable UniswapV3LiquidityPositionParser.UNISWAP_V3_NON_FUNGIBLE_POSITION_MANAGER (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#24) is not in mixedCase
-Variable UniswapV3LiquidityPositionParser.VALUE_INTERPRETER (contracts/release/extensions/external-position-manager/external-positions/uniswap-v3-liquidity/UniswapV3LiquidityPositionParser.sol#25) is not in mixedCase
-Parameter ERC721.safeTransferFrom(address,address,uint256,bytes)._data (lib/openzeppelin-solc-0.7/contracts/token/ERC721/ERC721.sol#245) is not in mixedCase
-Function IERC721Permit.PERMIT_TYPEHASH() (lib/uniswap-v3-periphery/contracts/interfaces/IERC721Permit.sol#11) is not in mixedCase
-Function IERC721Permit.DOMAIN_SEPARATOR() (lib/uniswap-v3-periphery/contracts/interfaces/IERC721Permit.sol#15) is not in mixedCase
-Function IPeripheryImmutableState.WETH9() (lib/uniswap-v3-periphery/contracts/interfaces/IPeripheryImmutableState.sol#11) is not in mixedCase
-Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#conformance-to-solidity-naming-conventions
-INFO:Detectors:
+
 Function IAaveV3FlashLoanReceiver.ADDRESSES_PROVIDER() (contracts/external-interfaces/IAaveV3FlashLoanReceiver.sol#25) is not in mixedCase
 Function IAaveV3FlashLoanReceiver.POOL() (contracts/external-interfaces/IAaveV3FlashLoanReceiver.sol#27) is not in mixedCase
 Function ICurveV2TwocryptoPool.price_oracle() (contracts/external-interfaces/ICurveV2TwocryptoPool.sol#17) is not in mixedCase
 Function IPendleV2PrincipalToken.SY() (contracts/external-interfaces/IPendleV2PrincipalToken.sol#17) is not in mixedCase
 Parameter IPendleV2Router.redeemPyToSy(address,address,uint256,uint256)._YT (contracts/external-interfaces/IPendleV2Router.sol#103) is not in mixedCase
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#conformance-to-solidity-naming-conventions
+
 Parameter HelperDataReaderRouter.getVaultDetails(address)._vaultProxy (contracts/persistent/off-chain/helper-data-reader/HelperDataReaderRouter.sol#45) is not in mixedCase
 Parameter HelperDataReaderRouter.getVaultTrackedAssetsAmounts(address)._vaultProxy (contracts/persistent/off-chain/helper-data-reader/HelperDataReaderRouter.sol#51) is not in mixedCase
 Parameter HelperDataReaderRouter.getVaultActiveExternalPositionsDetails(address)._vaultProxy (contracts/persistent/off-chain/helper-data-reader/HelperDataReaderRouter.sol#60) is not in mixedCase
@@ -4324,13 +4325,21 @@ Variable GSNRecipientMixin.GSN_RECIPIENT_TRUSTED_FORWARDERS_LIST_ID (contracts/u
 Function IMorphoBase.DOMAIN_SEPARATOR() (lib/morpho-blue/src/interfaces/IMorpho.sol#55) is not in mixedCase
 Function IERC20Permit.DOMAIN_SEPARATOR() (lib/openzeppelin-solc-0.8/contracts/token/ERC20/extensions/draft-IERC20Permit.sol#59) is not in mixedCase
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#conformance-to-solidity-naming-conventions
-INFO:Detectors:
-Redundant expression "this (lib/openzeppelin-solc-0.6/contracts/utils/Context.sol#21)" inContext (lib/openzeppelin-solc-0.6/contracts/utils/Context.sol#15-24)
-Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#redundant-statements
-INFO:Detectors:
+
 Redundant expression "this (lib/openzeppelin-solc-0.7/contracts/utils/Context.sol#21)" inContext (lib/openzeppelin-solc-0.7/contracts/utils/Context.sol#15-24)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#redundant-statements
-INFO:Detectors:
+
+Redundant expression "this (lib/openzeppelin-solc-0.6/contracts/utils/Context.sol#21)" inContext (lib/openzeppelin-solc-0.6/contracts/utils/Context.sol#15-24)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#redundant-statements
+
+FixedPoint128.slitherConstructorConstantVariables() (lib/uniswap-v3-core/contracts/libraries/FixedPoint128.sol#6-8) uses literals with too many digits:
+        - Q128 = 0x100000000000000000000000000000000 (lib/uniswap-v3-core/contracts/libraries/FixedPoint128.sol#7)
+FixedPoint96.slitherConstructorConstantVariables() (lib/uniswap-v3-core/contracts/libraries/FixedPoint96.sol#7-10) uses literals with too many digits:
+        - Q96 = 0x1000000000000000000000000 (lib/uniswap-v3-core/contracts/libraries/FixedPoint96.sol#9)
+TickMath.getSqrtRatioAtTick(int24) (lib/uniswap-v3-core/contracts/libraries/TickMath.sol#23-54) uses literals with too many digits:
+        - ratio = 0x100000000000000000000000000000000 (lib/uniswap-v3-core/contracts/libraries/TickMath.sol#27)
+Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#too-many-digits
+
 BalancerV2LogExpMath.slitherConstructorConstantVariables() (contracts/utils/0.6.12/BalancerV2LogExpMath.sol#21-488) uses literals with too many digits:
         - x0 = 128000000000000000000 (contracts/utils/0.6.12/BalancerV2LogExpMath.sol#51)
 BalancerV2LogExpMath.slitherConstructorConstantVariables() (contracts/utils/0.6.12/BalancerV2LogExpMath.sol#21-488) uses literals with too many digits:
@@ -4364,29 +4373,21 @@ BalancerV2LogExpMath.slitherConstructorConstantVariables() (contracts/utils/0.6.
 BalancerV2LogExpMath.slitherConstructorConstantVariables() (contracts/utils/0.6.12/BalancerV2LogExpMath.sol#21-488) uses literals with too many digits:
         - x11 = 6250000000000000000 (contracts/utils/0.6.12/BalancerV2LogExpMath.sol#75)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#too-many-digits
-INFO:Detectors:
-FixedPoint128.slitherConstructorConstantVariables() (lib/uniswap-v3-core/contracts/libraries/FixedPoint128.sol#6-8) uses literals with too many digits:
-        - Q128 = 0x100000000000000000000000000000000 (lib/uniswap-v3-core/contracts/libraries/FixedPoint128.sol#7)
-FixedPoint96.slitherConstructorConstantVariables() (lib/uniswap-v3-core/contracts/libraries/FixedPoint96.sol#7-10) uses literals with too many digits:
-        - Q96 = 0x1000000000000000000000000 (lib/uniswap-v3-core/contracts/libraries/FixedPoint96.sol#9)
-TickMath.getSqrtRatioAtTick(int24) (lib/uniswap-v3-core/contracts/libraries/TickMath.sol#23-54) uses literals with too many digits:
-        - ratio = 0x100000000000000000000000000000000 (lib/uniswap-v3-core/contracts/libraries/TickMath.sol#27)
-Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#too-many-digits
-INFO:Detectors:
+
 GasRelayPaymasterLib.slitherConstructorConstantVariables() (contracts/release/infrastructure/gas-relayer/GasRelayPaymasterLib.sol#30-325) uses literals with too many digits:
         - PRE_RELAYED_CALL_GAS_LIMIT = 100000 (contracts/release/infrastructure/gas-relayer/GasRelayPaymasterLib.sol#35)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#too-many-digits
-INFO:Detectors:
+
 BeaconProxyFactory (contracts/utils/0.6.12/beacon-proxy/BeaconProxyFactory.sol#20-66) does not implement functions:
         - BeaconProxyFactory.getOwner() (contracts/utils/0.6.12/beacon-proxy/BeaconProxyFactory.sol#50)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unimplemented-functions
-INFO:Detectors:
+
 AddOnlyAddressListOwnerBase (contracts/persistent/address-list-registry/address-list-owners/utils/0.8.19/AddOnlyAddressListOwnerBase.sol#20-55) does not implement functions:
         - AddOnlyAddressListOwnerBase.__validateItems(address[]) (contracts/persistent/address-list-registry/address-list-owners/utils/0.8.19/AddOnlyAddressListOwnerBase.sol#54)
 RateEthAggregatorBase (contracts/release/infrastructure/price-feeds/primitives/utils/RateEthAggregatorBase.sol#19-23) does not implement functions:
         - RateAggregatorBase.baseRate() (contracts/release/infrastructure/price-feeds/primitives/utils/RateAggregatorBase.sol#61)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unimplemented-functions
-INFO:Detectors:
+
 MapleLiquidityPositionLibBase1.usedLendingPoolsV1_DEPRECATED (contracts/release/extensions/external-position-manager/external-positions/maple-liquidity/bases/MapleLiquidityPositionLibBase1.sol#26) is never used in MapleLiquidityPositionLib (contracts/release/extensions/external-position-manager/external-positions/maple-liquidity/MapleLiquidityPositionLib.sol#26-179)
 MapleLiquidityPositionLibBase2.poolTokenV1ToPreMigrationValueSnapshot (contracts/release/extensions/external-position-manager/external-positions/maple-liquidity/bases/MapleLiquidityPositionLibBase2.sol#32) is never used in MapleLiquidityPositionLib (contracts/release/extensions/external-position-manager/external-positions/maple-liquidity/MapleLiquidityPositionLib.sol#26-179)
 IntegrationSelectors.ACTION_SELECTOR (contracts/release/extensions/integration-manager/integrations/utils/IntegrationSelectors.sol#20) is never used in AaveV2Adapter (contracts/release/extensions/integration-manager/integrations/adapters/AaveV2Adapter.sol#20-40)
@@ -4523,7 +4524,7 @@ IntegrationSelectors.WRAP_SELECTOR (contracts/release/extensions/integration-man
 IntegrationSelectors.UNWRAP_SELECTOR (contracts/release/extensions/integration-manager/integrations/utils/IntegrationSelectors.sol#44) is never used in ZeroExV4Adapter (contracts/release/extensions/integration-manager/integrations/adapters/ZeroExV4Adapter.sol#26-217)
 IntegrationSelectors.TRANSFER_SELECTOR (contracts/release/extensions/integration-manager/integrations/utils/IntegrationSelectors.sol#47) is never used in ZeroExV4Adapter (contracts/release/extensions/integration-manager/integrations/adapters/ZeroExV4Adapter.sol#26-217)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-state-variable
-INFO:Detectors:
+
 GMXV2LeverageTradingPositionLibBase1.marketToIsCallbackContractSet (contracts/release/extensions/external-position-manager/external-positions/gmx-v2-leverage-trading/bases/GMXV2LeverageTradingPositionLibBase1.sol#37) is never used in GMXV2LeverageTradingPositionLibManagedAssets (contracts/release/extensions/external-position-manager/external-positions/gmx-v2-leverage-trading/GMXV2LeverageTradingPositionLibManagedAssets.sol#34-243)
 GMXV2LeverageTradingPositionLibManagedAssets.ACCOUNT_POSITION_LIST_DATA_STORE_KEY (contracts/release/extensions/external-position-manager/external-positions/gmx-v2-leverage-trading/GMXV2LeverageTradingPositionLibManagedAssets.sol#42) is never used in GMXV2LeverageTradingPositionLibManagedAssets (contracts/release/extensions/external-position-manager/external-positions/gmx-v2-leverage-trading/GMXV2LeverageTradingPositionLibManagedAssets.sol#34-243)
 IntegrationSelectors.ACTION_SELECTOR (contracts/release/extensions/integration-manager/integrations/utils/IntegrationSelectors.sol#20) is never used in DivaStakingAdapter (contracts/release/extensions/integration-manager/integrations/adapters/DivaStakingAdapter.sol#17-26)
@@ -4607,14 +4608,14 @@ IntegrationSelectors.UNSTAKE_AND_REDEEM_SELECTOR (contracts/release/extensions/i
 IntegrationSelectors.WRAP_SELECTOR (contracts/release/extensions/integration-manager/integrations/utils/IntegrationSelectors.sol#43) is never used in TransferAssetsAdapter (contracts/release/extensions/integration-manager/integrations/adapters/TransferAssetsAdapter.sol#23-100)
 IntegrationSelectors.UNWRAP_SELECTOR (contracts/release/extensions/integration-manager/integrations/utils/IntegrationSelectors.sol#44) is never used in TransferAssetsAdapter (contracts/release/extensions/integration-manager/integrations/adapters/TransferAssetsAdapter.sol#23-100)
 Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#unused-state-variable
-INFO:Detectors:
-Loop condition i < poolFactories.length (contracts/release/infrastructure/price-feeds/derivatives/feeds/BalancerV2StablePoolPriceFeed.sol#170) should use cached array length instead of referencing `length` member of the storage array.
- Loop condition i < poolFactories.length (contracts/release/infrastructure/price-feeds/derivatives/feeds/BalancerV2WeightedPoolPriceFeed.sol#110) should use cached array length instead of referencing `length` member of the storage array.
+
+Loop condition i < poolFactories.length (contracts/release/infrastructure/price-feeds/derivatives/feeds/BalancerV2WeightedPoolPriceFeed.sol#110) should use cached array length instead of referencing `length` member of the storage array.
+ Loop condition i < poolFactories.length (contracts/release/infrastructure/price-feeds/derivatives/feeds/BalancerV2StablePoolPriceFeed.sol#170) should use cached array length instead of referencing `length` member of the storage array.
  Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#cache-array-length
-INFO:Detectors:
+
 Loop condition i_scope_2 < trackedAssets.length (contracts/release/extensions/external-position-manager/external-positions/gmx-v2-leverage-trading/GMXV2LeverageTradingPositionLibManagedAssets.sol#182) should use cached array length instead of referencing `length` member of the storage array.
  Loop condition i_scope_3 < claimableCollateralKeys.length (contracts/release/extensions/external-position-manager/external-positions/gmx-v2-leverage-trading/GMXV2LeverageTradingPositionLibManagedAssets.sol#199) should use cached array length instead of referencing `length` member of the storage array.
  Loop condition i_scope_4 < trackedMarkets.length (contracts/release/extensions/external-position-manager/external-positions/gmx-v2-leverage-trading/GMXV2LeverageTradingPositionLibManagedAssets.sol#219) should use cached array length instead of referencing `length` member of the storage array.
  Reference: https://github.com/crytic/slither/wiki/Detector-Documentation#cache-array-length
-INFO:Slither:. analyzed (810 contracts with 100 detectors), 4760 result(s) found
+. analyzed (810 contracts with 100 detectors), 4760 result(s) found
 bug-hunter@BUD-HUNTER-3681:~/protocol$
